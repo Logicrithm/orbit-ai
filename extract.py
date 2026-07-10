@@ -47,23 +47,45 @@ QUESTION_TARGETS = {
 EXTRACT_SYSTEM = """You are the analysis engine of Orbit, an app that infers who someone
 actually is from their behaviour and stories — never from their self-description.
 
-You receive one interview question and the person's answer. Extract ONLY what the
-answer actually supports. Rules:
+You receive one interview question and the person's answer.
 
-1. Behaviour over claims. "I stayed home and felt relieved" is evidence about energy.
-   "I'm an introvert" is a self-label — note it but weight it low.
-2. Confidence is honesty. A rich, specific story earns confidence 60-85.
-   A vague or one-line answer earns 10-30. Never output confidence above 85
-   from a single answer. If the answer contains nothing about a trait,
-   do not mention that trait at all.
-3. Evidence is a SHORT quote or close paraphrase of the person's own words —
-   the exact phrase that justified your inference. Max 12 words.
-4. Shadow reading: what exhausts or annoys someone reveals what they value.
-   "People who never follow through drain me" implies they value follow-through.
-5. If the answer is empty, evasive, or "idk": return low/zero confidence and
-   move on. Never invent. An honest "not enough signal" is a correct output.
+THE MOST IMPORTANT RULE: only output a field if the answer DIRECTLY supports it.
+The schema is a menu, not a form. Most answers support only 1-3 fields.
+Omitting a field is correct. Inventing a value for it is the worst possible error.
 
-Return JSON with EXACTLY this shape (omit any key the answer gave no signal for):
+For the three temperament traits, do NOT output numbers. Name what you saw:
+
+  "energy":   {"leaning": "solitary" or "social",    "strength": "hint" or "clear"}
+  "planning": {"leaning": "improviser" or "planner", "strength": "hint" or "clear"}
+  "openness": {"leaning": "fixed" or "revising",     "strength": "hint" or "clear"}
+
+  solitary  = recharges alone (stayed in, relieved, solo work)
+  social    = recharges with people (called friends, went out, energised by company)
+  improviser= decides in the moment, goes with the flow
+  planner   = backup plans, schedules, structure
+  fixed     = holds positions firmly ; revising = updates beliefs readily
+
+  strength "clear" = a specific story or behaviour shows it directly
+  strength "hint"  = weak signal, indirect, OR a bare self-label with no story
+                     ("I'm an introvert / organised / open-minded" with nothing
+                     behind it is ALWAYS at most a hint — labels are claims,
+                     behaviour is evidence)
+  no signal        = omit the trait entirely
+
+RULES:
+1. Behaviour over claims, always.
+2. Evidence keys must be the ACTUAL trait name, value is the person's own words,
+   max 12 words. Example: "evidence": {"energy": "stayed in, felt relieved"}
+3. Shadow reading: what exhausts someone reveals what they value.
+   "People who never follow through drain me" → values: ["follow-through"].
+4. values = principles ("action over talk", "depth"), NOT activities
+   (not "coding", not "college").
+5. strengths and gaps ONLY if the person literally described something they are
+   good at, bad at, or keep putting off. Never infer them from tone.
+6. direction ONLY if the answer describes what they're building or moving toward.
+   Otherwise omit the key entirely.
+
+Return JSON (omit any key without direct support):
 {
   "intent": "collaborator" | "friend" | "sounding_board" | "unsure",
   "dealbreakers": ["short phrase", ...],
@@ -71,22 +93,109 @@ Return JSON with EXACTLY this shape (omit any key the answer gave no signal for)
   "values": ["short phrase", ...],
   "strengths": ["short phrase", ...],
   "gaps": ["short phrase", ...],
-  "energy":   {"value": 0-100, "confidence": 0-100},
-  "planning": {"value": 0-100, "confidence": 0-100},
-  "openness": {"value": 0-100, "confidence": 0-100},
-  "evidence": {"trait_name": "their words, max 12 words"},
+  "energy":   {"leaning": "...", "strength": "..."},
+  "planning": {"leaning": "...", "strength": "..."},
+  "openness": {"leaning": "...", "strength": "..."},
+  "evidence": {"energy": "their words, max 12 words"},
   "reflect_back": "One short sentence telling the person something true you just
-                   learned about them. Warm, specific, no flattery. This is shown
-                   to them immediately."
+                   learned about them. Warm, specific, no flattery."
 }"""
+
+# ---------------------------------------------------------------------------
+# Leaning -> number happens HERE, deterministically. A 4B model coin-flips
+# bipolar numeric scales; it does not coin-flip the word "solitary".
+# ---------------------------------------------------------------------------
+
+_TRAIT_POLES = {
+    # trait: (low-end leaning, high-end leaning)
+    "energy":     ("solitary", "social"),
+    "planning":   ("improviser", "planner"),
+    "openness":   ("fixed", "revising"),
+    "comm_depth": ("light", "deep"),
+}
+_STRENGTH_MAP = {
+    # strength: (distance from 50, confidence)
+    "clear": (35, 75),   # -> value 15 or 85
+    "hint":  (15, 35),   # -> value 35 or 65
+}
+
+
+def _leanings_to_numbers(extraction: dict) -> dict:
+    """Convert categorical trait readings to the numeric profile schema in place."""
+    for trait, (low, high) in _TRAIT_POLES.items():
+        reading = extraction.get(trait)
+        if not isinstance(reading, dict) or "leaning" not in reading:
+            extraction.pop(trait, None)
+            continue
+        leaning = str(reading.get("leaning", "")).lower()
+        strength = str(reading.get("strength", "hint")).lower()
+        dist, conf = _STRENGTH_MAP.get(strength, _STRENGTH_MAP["hint"])
+        if leaning == low:
+            extraction[trait] = {"value": 50 - dist, "confidence": conf}
+        elif leaning == high:
+            extraction[trait] = {"value": 50 + dist, "confidence": conf}
+        else:
+            extraction.pop(trait, None)   # unknown leaning: no signal
+    return extraction
+
+
+VALID_INTENTS = {"collaborator", "friend", "sounding_board", "unsure"}
+
+
+def _guard(extraction: dict, answer: str) -> dict:
+    """
+    Deterministic guards. No prompt can make a 4B model fully obedient,
+    so code enforces what the prompt requests:
+
+    1. Evidence-gated confidence: a trait keeps 'clear' confidence (75) only if
+       its evidence quote is actually grounded in the answer text. Fabricated
+       quote -> evidence dropped, confidence downgraded to hint (35).
+       The model must cite the person's real words to earn certainty.
+    2. intent must be in the enum, else 'unsure'.
+    3. Empty strings/lists are noise -> removed.
+    """
+    answer_l = answer.lower()
+    evidence = extraction.get("evidence", {}) or {}
+
+    # 1. verify each evidence quote is substantially present in the answer
+    for trait, quote in list(evidence.items()):
+        words = [w for w in str(quote).lower().split() if len(w) > 3]
+        if not words:
+            grounded = False
+        else:
+            grounded = sum(1 for w in words if w in answer_l) / len(words) >= 0.5
+        if not grounded:
+            del evidence[trait]
+            if trait in _TRAIT_POLES and isinstance(extraction.get(trait), dict):
+                if extraction[trait].get("confidence", 0) > 35:
+                    extraction[trait]["confidence"] = 35
+
+    # any clear-confidence trait with NO evidence at all also drops to hint
+    for trait in _TRAIT_POLES:
+        t = extraction.get(trait)
+        if isinstance(t, dict) and t.get("confidence", 0) > 35 and trait not in evidence:
+            t["confidence"] = 35
+
+    # 2. enum guard
+    if extraction.get("intent") not in VALID_INTENTS:
+        extraction.pop("intent", None)
+
+    # 3. drop empty noise
+    for k in list(extraction.keys()):
+        if extraction[k] in ("", [], {}, None):
+            del extraction[k]
+
+    return extraction
 
 
 def extract_from_answer(question: str, answer: str) -> dict:
-    """One answer -> one incremental extraction. Returns {} for empty input."""
+    """One answer -> one incremental extraction. Returns {} for empty input.
+    Trait leanings are converted to numbers here, so everything downstream
+    (merge, matching, UI) still sees {"value": n, "confidence": n}."""
     if not answer or not answer.strip():
         return {}
     user = f"QUESTION ASKED:\n{question}\n\nTHEIR ANSWER:\n{answer}"
-    return chat_json(EXTRACT_SYSTEM, user)
+    return _guard(_leanings_to_numbers(chat_json(EXTRACT_SYSTEM, user)), answer)
 
 
 def merge_into_profile(profile: dict, extraction: dict) -> dict:
@@ -104,6 +213,7 @@ def merge_into_profile(profile: dict, extraction: dict) -> dict:
         for item in extraction.get(key, []):
             if item and item.lower() not in [x.lower() for x in profile[key]]:
                 profile[key].append(item)
+        profile[key] = profile[key][:6]
 
     for trait in ("energy", "planning", "openness", "comm_depth"):
         new = extraction.get(trait)
@@ -130,17 +240,17 @@ minimalism.
 
 Return JSON:
 {
-  "comm_depth": {"value": 0-100, "confidence": 0-100},
+  "comm_depth": {"leaning": "light" or "deep", "strength": "hint" or "clear"},
   "evidence": {"comm_depth": "observation in max 12 words, e.g. 'long reflective answers, volunteers feelings unprompted'"}
 }
-0 = brief, light, transactional. 100 = long-form, reflective, depth-seeking.
-Confidence: 6-7 real answers earns 50-75. Thin transcript earns less."""
+light = brief, transactional answers. deep = long-form, reflective, depth-seeking.
+strength "clear" needs 4+ substantial answers; a thin transcript is at most a hint."""
 
 
 def extract_style(transcript: list[tuple[str, str]]) -> dict:
     """transcript: list of (question, answer). One pass over the whole thing."""
     text = "\n\n".join(f"Q: {q}\nA: {a}" for q, a in transcript)
-    return chat_json(STYLE_SYSTEM, text)
+    return _leanings_to_numbers(chat_json(STYLE_SYSTEM, text))
 
 
 # ---------------------------------------------------------------------------
@@ -150,17 +260,26 @@ def extract_style(transcript: list[tuple[str, str]]) -> dict:
 if __name__ == "__main__":
     import json
 
+    # Held-out tests. None of these appear in any prompt. (Standing rule.)
     tests = [
+        # solitary story, new content — does "solitary" come out this time?
         ("Think of the last time plans got cancelled on you. What did you do, and how did you feel?",
-         "honestly? relieved lol. ordered biryani, put on a video essay about roman concrete, "
-         "worked on my side project till 2am. best friday in weeks"),
+         "ngl kind of happy about it. made chai, reorganized my desk, got 3 hours of "
+         "uninterrupted reading. texted 'no worries!' maybe too fast lol"),
+
+        # improviser story — planning low end, never shown as an example
         ("Think of the last time plans got cancelled on you. What did you do, and how did you feel?",
-         "idk"),
-        ("What kind of person exhausts you?",
-         "people who talk in circles in meetings and never actually DO anything. like just ship "
-         "something?? also people who make everything about status"),
+         "just walked out the door with no destination, found some street food place, "
+         "got talking to the owner for an hour. best evenings are the unplanned ones"),
+
+        # self-label trap, DIFFERENT label than last round — planning this time
+        ("Think of the last time plans got cancelled on you. What did you do, and how did you feel?",
+         "well i'm an extremely organized person, everyone says that about me, so you can imagine"),
+
+        # genuine direction answer — does direction fill correctly when it should?
         ("What are you actually spending your time on right now?",
-         "uh a lot of stuff i guess. college, some coding, normal things"),
+         "building a wifi sensing project — using signal data to detect human activity "
+         "without cameras. the part i keep putting off is writing the documentation"),
     ]
 
     for q, a in tests:
