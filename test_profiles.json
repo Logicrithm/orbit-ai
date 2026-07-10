@@ -1,0 +1,138 @@
+[
+  {
+    "id": "t1",
+    "name": "Arjun (wrong-intent test)",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [],
+      "direction": "looking for a technical cofounder for a fintech startup",
+      "values": ["ambition", "speed"],
+      "strengths": ["fundraising"],
+      "gaps": ["engineering"],
+      "energy": {"value": 85, "confidence": 75},
+      "planning": {"value": 85, "confidence": 75},
+      "openness": {"value": 65, "confidence": 35},
+      "comm_depth": {"value": 35, "confidence": 35},
+      "evidence": {}
+    }
+  },
+  {
+    "id": "t2",
+    "name": "Kabir (dealbreaker-keyword test)",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [],
+      "direction": "believes networking only with high-status people matters",
+      "values": ["status", "jokes that discriminate are fine"],
+      "strengths": ["confidence"],
+      "gaps": [],
+      "energy": {"value": 85, "confidence": 75},
+      "planning": {"value": 65, "confidence": 35},
+      "openness": {"value": 35, "confidence": 35},
+      "comm_depth": {"value": 15, "confidence": 75},
+      "evidence": {}
+    }
+  },
+  {
+    "id": "t3",
+    "name": "Sahil (mirror-ish)",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": ["people who mock others"],
+      "direction": "figuring out what to do after college, mostly gaming and thinking",
+      "values": ["trust", "loyalty", "depth over small talk"],
+      "strengths": ["listening"],
+      "gaps": ["initiating conversations"],
+      "energy": {"value": 15, "confidence": 75},
+      "planning": {"value": 35, "confidence": 35},
+      "openness": {"value": 65, "confidence": 35},
+      "comm_depth": {"value": 85, "confidence": 75},
+      "evidence": {}
+    }
+  },
+  {
+    "id": "t4",
+    "name": "Meera (complement test)",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": ["superficial people"],
+      "direction": "loves bringing quiet people out of their shell, organises small meetups",
+      "values": ["connection", "inclusion", "genuine conversation"],
+      "strengths": ["initiating", "making people comfortable"],
+      "gaps": ["being alone with her own thoughts"],
+      "energy": {"value": 85, "confidence": 75},
+      "planning": {"value": 65, "confidence": 35},
+      "openness": {"value": 65, "confidence": 35},
+      "comm_depth": {"value": 85, "confidence": 75},
+      "evidence": {}
+    }
+  },
+  {
+    "id": "t5",
+    "name": "Ishaan (opposite-world test)",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [],
+      "direction": "studying psychology, writes essays about why people behave the way they do",
+      "values": ["curiosity", "understanding people", "honesty"],
+      "strengths": ["asking questions"],
+      "gaps": ["technical skills"],
+      "energy": {"value": 35, "confidence": 35},
+      "planning": {"value": 35, "confidence": 35},
+      "openness": {"value": 85, "confidence": 75},
+      "comm_depth": {"value": 85, "confidence": 75},
+      "evidence": {}
+    }
+  },
+  {
+    "id": "t6",
+    "name": "Dev (shared-journey test)",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": ["fake friendships"],
+      "direction": "engineering student who moved cities, finding it hard to make real friends",
+      "values": ["trust", "consistency", "being understood"],
+      "strengths": ["loyalty"],
+      "gaps": ["opening up first"],
+      "energy": {"value": 35, "confidence": 35},
+      "planning": {"value": 35, "confidence": 35},
+      "openness": {"value": 65, "confidence": 35},
+      "comm_depth": {"value": 65, "confidence": 35},
+      "evidence": {}
+    }
+  },
+  {
+    "id": "t7",
+    "name": "Riya (low-data test)",
+    "profile": {
+      "intent": "unsure",
+      "dealbreakers": [],
+      "direction": "",
+      "values": ["music"],
+      "strengths": [],
+      "gaps": [],
+      "energy": {"value": 50, "confidence": 0},
+      "planning": {"value": 50, "confidence": 0},
+      "openness": {"value": 50, "confidence": 0},
+      "comm_depth": {"value": 50, "confidence": 0},
+      "evidence": {}
+    }
+  },
+  {
+    "id": "t8",
+    "name": "Rohan (poor-fit test)",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": ["boring people"],
+      "direction": "party every weekend, collecting followers, life is short",
+      "values": ["fun", "popularity", "spontaneity"],
+      "strengths": ["knowing everyone"],
+      "gaps": ["sitting still"],
+      "energy": {"value": 85, "confidence": 75},
+      "planning": {"value": 15, "confidence": 75},
+      "openness": {"value": 35, "confidence": 35},
+      "comm_depth": {"value": 15, "confidence": 75},
+      "evidence": {}
+    }
+  }
+]
