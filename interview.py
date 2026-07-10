@@ -21,26 +21,28 @@ from extract import (EMPTY_PROFILE, extract_from_answer, extract_style,
 
 QUESTIONS = [
     # (id, question text, fields this question is allowed to write)
-    (1, "First things first — what are you hoping to find here? A collaborator "
-        "for something you're building, a friend, or just someone to think out loud with?",
+    (1, "What are you looking for here — a friend, someone to build something with, "
+        "or just someone to talk things through with?",
         {"intent"}),
 
-    (2, "What are you actually spending your time on right now? And — honestly — "
-        "what's the part of it you keep putting off?",
+    (2, "What do you spend most of your time on these days? And what part of it "
+        "do you keep avoiding or putting off?",
         {"direction", "gaps", "strengths"}),
 
-    (3, "What's an idea you keep coming back to — something you could talk about "
-        "for an hour without noticing?",
+    (3, "What's one thing you could talk about for an hour without getting bored? "
+        "(anything counts — a hobby, an idea, a game, a subject)",
         {"values"}),
 
-    (4, "Think of the last time plans actually got cancelled on you. What did you "
-        "do with the evening — and honestly, how did you feel when you got the message?",
+    (4, "Remember the last time your plans got cancelled. What did you actually do "
+        "that evening, and how did you feel about it? (stayed in, went out, called "
+        "someone — whatever really happened)",
         {"energy", "planning"}),
 
-    (5, "Tell me about a time you changed your mind about something that mattered to you.",
+    (5, "Tell me about one time you changed your mind about something important. "
+        "What made you change it?",
         {"openness"}),
 
-    (6, "What kind of person exhausts you?",
+    (6, "What kind of person tires you out or drains your energy?",
         {"dealbreakers", "values"}),
 ]
 

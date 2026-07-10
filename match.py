@@ -54,17 +54,14 @@ def passes_hard_filters(user: dict, cand: dict) -> bool:
     if ui and ci and "unsure" not in (ui, ci) and ui != ci:
         return False
 
-    # dealbreakers: stem-level keyword screen against the candidate's own text.
-    # Stems, because "discrimination" must catch "discriminate", "discriminatory".
-    # Honest limitation (README): catches only what candidates SAY about
-    # themselves; stage 3 re-checks semantically.
-    cand_words = _profile_text(cand).split()
+    # dealbreakers: crude keyword screen against the candidate's own text.
+    # Honest limitation (goes in README): this only catches what candidates
+    # SAY about themselves. Stage 3 re-checks semantically; post-match
+    # reporting would be the real mechanism in production.
+    text = _profile_text(cand)
     for db in user.get("dealbreakers", []):
         for word in db.lower().split():
-            if len(word) <= 4:
-                continue
-            stem = word[:6]
-            if any(cw.startswith(stem) for cw in cand_words):
+            if len(word) > 4 and word in text:
                 return False
     return True
 
@@ -169,8 +166,10 @@ Connection types (choose the one that truly fits, not the fanciest):
 
 Rules:
 1. NEVER select anyone who plausibly conflicts with the user's "avoids" list.
-2. The reason must be concrete and reference BOTH people's actual details.
-   Plain words. No percentages, no scores, no flattery.
+2. The reason must be concrete and reference BOTH people's actual details —
+   and ONLY details that appear in the profiles above. Never invent facts,
+   plans, or possessions that are not written there. Plain words. No
+   percentages, no scores, no flattery.
 3. first_activity: one specific thing they could do together in 30 minutes,
    tailored to THEM (not "grab coffee").
 4. Use each candidate's number exactly as given.

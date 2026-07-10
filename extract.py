@@ -225,7 +225,9 @@ def merge_into_profile(profile: dict, extraction: dict) -> dict:
     if extraction.get("direction"):
         profile["direction"] = extraction["direction"]
 
-    profile["evidence"].update(extraction.get("evidence", {}))
+    ev = extraction.get("evidence", {})
+    if isinstance(ev, dict):
+        profile["evidence"].update(ev)
     return profile
 
 

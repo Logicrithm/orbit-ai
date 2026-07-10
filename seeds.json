@@ -1,0 +1,7110 @@
+[
+  {
+    "id": "s1",
+    "name": "Sneha",
+    "age_band": "25-34",
+    "persona": "startup-grinder",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking about ideas without action"
+      ],
+      "direction": "They are building an app called Connectify.",
+      "values": [
+        "action",
+        "getting things shipped",
+        "building",
+        "shipping",
+        "problem-solving",
+        "attention to detail"
+      ],
+      "strengths": [
+        "complex systems"
+      ],
+      "gaps": [
+        "documentation"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "building at 2 AM, fueled by coffee",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids generalizations; consistently prioritizes action."
+      }
+    }
+  },
+  {
+    "id": "s3",
+    "name": "Zoya",
+    "age_band": "45+",
+    "persona": "standup-writer",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "crypto investments",
+        "NFTs"
+      ],
+      "direction": "They are pursuing open mic performances.",
+      "values": [
+        "venting",
+        "absurdity",
+        "authenticity",
+        "observation",
+        "detail",
+        "comfort"
+      ],
+      "strengths": [
+        "account reconciliation"
+      ],
+      "gaps": [
+        "updating schedule"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stared at the ceiling for three hours",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; deflects with humor and anecdotes; story-telling style."
+      }
+    }
+  },
+  {
+    "id": "s4",
+    "name": "Aditya",
+    "age_band": "25-34",
+    "persona": "returning-mom",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant negativity"
+      ],
+      "direction": "They are currently balancing childcare with freelance web design.",
+      "values": [
+        "depth",
+        "professionalism",
+        "quality",
+        "efficiency",
+        "satisfaction",
+        "planning"
+      ],
+      "strengths": [
+        "updating small business sites",
+        "pretty good at it"
+      ],
+      "gaps": [
+        "updating portfolio"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering pizza and binge-watching tutorials",
+        "comm_depth": "Frequent 'um' and hesitant phrasing, lengthy explanations, volunteers feelings ('felt silly,' 'embarrassing'), reflects on past decisions, detailed anecdotes (spice rack, kitchen renovation)."
+      }
+    }
+  },
+  {
+    "id": "s5",
+    "name": "Neha",
+    "age_band": "18-24",
+    "persona": "chess-teacher",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "endless rambling",
+        "tactical error"
+      ],
+      "direction": "They are focused on running a chess club and upcoming tournament.",
+      "values": [
+        "shared effort",
+        "focused",
+        "teaching",
+        "strategic thinking",
+        "depth",
+        "precision"
+      ],
+      "strengths": [
+        "strategic thinking",
+        "organising"
+      ],
+      "gaps": [
+        "website maintenance"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 65,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "reading a game theory book",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed chess analysis; focuses on systems and strategy; avoids direct emotional expression; reflects on decision-making processes."
+      }
+    }
+  },
+  {
+    "id": "s6",
+    "name": "Priya",
+    "age_band": "45+",
+    "persona": "travel-nurse",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who are always talking about themselves"
+      ],
+      "direction": "They are currently working as a pediatric nurse, traveling frequently.",
+      "values": [
+        "connection",
+        "stability",
+        "meeting people",
+        "depth",
+        "knowledge",
+        "patient care"
+      ],
+      "strengths": [
+        "meeting people"
+      ],
+      "gaps": [
+        "setting up video calls"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering pizza and binge-watching a reality show",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed anecdotes; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s7",
+    "name": "Ananya",
+    "age_band": "18-24",
+    "persona": "open-source-dev",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking without listening"
+      ],
+      "direction": "They are working on audio processing and improving video call listening detection.",
+      "values": [
+        "depth",
+        "explanation",
+        "detail",
+        "clarity",
+        "optimization",
+        "precision"
+      ],
+      "strengths": [
+        "audio processing"
+      ],
+      "gaps": [
+        "documentation"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the whole evening yelling at a beagle",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories; admits to struggling with explanations; frequently uses 'um' and qualifiers; reflects on past decisions and feelings."
+      }
+    }
+  },
+  {
+    "id": "s8",
+    "name": "Joseph",
+    "age_band": "18-24",
+    "persona": "dance-choreographer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "obsessed with schedules",
+        "trying to control the flow"
+      ],
+      "direction": "They are developing a dance piece using various movement styles.",
+      "values": [
+        "movement",
+        "weirdness",
+        "experimentation",
+        "creativity",
+        "observation",
+        "patterns"
+      ],
+      "strengths": [
+        "throwing ideas at the wall"
+      ],
+      "gaps": [
+        "scheduling"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "seeing those kids play and being part of that chaos",
+        "comm_depth": "Frequent 'um's, lengthy, tangential answers, volunteers feelings, reflects on experiences, story-telling, avoids direct answers, reveals emotional reactions."
+      }
+    }
+  },
+  {
+    "id": "s9",
+    "name": "Nikhil",
+    "age_band": "35-44",
+    "persona": "retired-army",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "lack of transparency",
+        "disorganization"
+      ],
+      "direction": "They are currently focused on gardening and attempting to grow roses.",
+      "values": [
+        "reliability",
+        "solid",
+        "growth",
+        "completion",
+        "consistency",
+        "problem-solving"
+      ],
+      "strengths": [
+        "managing squads"
+      ],
+      "gaps": [
+        "building fences"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "making a massive pot of chili",
+        "comm_depth": "Frequent 'honestly?' hedges, lengthy reflective answers, volunteers feelings, detailed stories, avoids directness."
+      }
+    }
+  },
+  {
+    "id": "s10",
+    "name": "Amit",
+    "age_band": "25-34",
+    "persona": "poetry-editor",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "one-way conversations"
+      ],
+      "direction": "They are working on a collection of imagery by Silas Blackwood.",
+      "values": [
+        "stillness",
+        "letting words breathe",
+        "depth",
+        "argument",
+        "detail",
+        "peace"
+      ],
+      "strengths": [
+        "arguing with words"
+      ],
+      "gaps": [
+        "answering emails"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stayed in, made tea, read poems",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling; avoids directness; consistent reflection."
+      }
+    }
+  },
+  {
+    "id": "s11",
+    "name": "Tara",
+    "age_band": "35-44",
+    "persona": "robotics-undergrad",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "lack of understanding",
+        "impractical suggestions"
+      ],
+      "direction": "They are building a robot named Ragnarok.",
+      "values": [
+        "depth",
+        "action over talk",
+        "precision",
+        "problem-solving",
+        "optimization",
+        "persistence"
+      ],
+      "strengths": [
+        "detailed design",
+        "technical problem-solving"
+      ],
+      "gaps": [
+        "electrical work"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "watched anime, ordered pizza, stared at chassis",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories about projects; avoids deflection; uses specific technical language."
+      }
+    }
+  },
+  {
+    "id": "s12",
+    "name": "Ananya",
+    "age_band": "18-24",
+    "persona": "cafe-owner",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you, not with you"
+      ],
+      "direction": "They are focused on running a cafe and maintaining their sourdough starter.",
+      "values": [
+        "depth",
+        "authenticity",
+        "remembering details",
+        "consistency",
+        "observation",
+        "detail"
+      ],
+      "strengths": [
+        "remembering orders",
+        "maintaining sourdough"
+      ],
+      "gaps": [
+        "genuine conversation"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stayed here, scrubbing floors",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids directness; detailed anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s13",
+    "name": "Rahul",
+    "age_band": "35-44",
+    "persona": "climate-analyst",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "climate change denial",
+        "arguing over data"
+      ],
+      "direction": "They are researching the Gulf Stream and its changes.",
+      "values": [
+        "depth",
+        "action over talk",
+        "accuracy",
+        "critical thinking",
+        "efficiency",
+        "problem-solving"
+      ],
+      "strengths": [
+        "data analysis",
+        "research"
+      ],
+      "gaps": [
+        "spreadsheet updates"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "watching a documentary about the melting glaciers",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed data references; minimal bullet-point minimalism."
+      }
+    }
+  },
+  {
+    "id": "s14",
+    "name": "Dhruv",
+    "age_band": "45+",
+    "persona": "game-artist",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant questioning",
+        "scheduling demands"
+      ],
+      "direction": "They are developing a fantasy RPG with moss and moody lighting.",
+      "values": [
+        "quiet",
+        "non-judgmental",
+        "paying the bills",
+        "detail",
+        "patience",
+        "completing projects"
+      ],
+      "strengths": [
+        "painting backgrounds"
+      ],
+      "gaps": [
+        "emailing clients"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the night scrolling through forums",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids direct minimalism; admits vulnerability."
+      }
+    }
+  },
+  {
+    "id": "s15",
+    "name": "Pooja",
+    "age_band": "25-34",
+    "persona": "med-resident",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "don't follow through"
+      ],
+      "direction": "They are maintaining their current work schedule and coping with on-call responsibilities.",
+      "values": [
+        "solid connection",
+        "reliability",
+        "venting",
+        "sane",
+        "Netflix",
+        "dedication"
+      ],
+      "strengths": [
+        "gym"
+      ],
+      "gaps": [
+        "reaching out to family"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "scrolling through Reddit for three hours",
+        "comm_depth": "Frequent ‘um’s, lengthy reflective answers, volunteers feelings unprompted, story-telling, avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s16",
+    "name": "Farhan",
+    "age_band": "18-24",
+    "persona": "street-photographer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "excessive self-talk"
+      ],
+      "direction": "They are trying to get out more and enjoy the outdoors.",
+      "values": [
+        "honest stories",
+        "authenticity",
+        "observation",
+        "curiosity",
+        "listening",
+        "comfort"
+      ],
+      "strengths": [
+        "detailed observation"
+      ],
+      "gaps": [
+        "photo editing"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering pizza and scrolling through photos",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed anecdotes; avoids direct deflection."
+      }
+    }
+  },
+  {
+    "id": "s17",
+    "name": "Sneha",
+    "age_band": "35-44",
+    "persona": "math-olympiad",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "They are dedicated to helping children excel in mathematics.",
+      "values": [
+        "loyalty",
+        "depth",
+        "dedication",
+        "problem-solving",
+        "pattern recognition",
+        "satisfaction"
+      ],
+      "strengths": [
+        "dedication to children",
+        "problem-solving"
+      ],
+      "gaps": [
+        "overwhelming environments"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ended up ordering pizza and binge-watching a series",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples (Lego, prime factors, Avatar); avoids direct deflection."
+      }
+    }
+  },
+  {
+    "id": "s18",
+    "name": "Joseph",
+    "age_band": "35-44",
+    "persona": "ngo-organizer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "relentless optimism"
+      ],
+      "direction": "They are organizing a refugee outreach event.",
+      "values": [
+        "community",
+        "real",
+        "accommodating dietary needs",
+        "fun",
+        "efficiency",
+        "responsibility"
+      ],
+      "strengths": [
+        "organizing events",
+        "finding venues"
+      ],
+      "gaps": [
+        "catering logistics"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordered pizza and binge-watching a terrible show",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples; avoids deflection."
+      }
+    }
+  },
+  {
+    "id": "s19",
+    "name": "Priya",
+    "age_band": "35-44",
+    "persona": "audiobook-narrator",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you",
+        "not listening"
+      ],
+      "direction": "They are currently narrating audiobooks at the library.",
+      "values": [
+        "depth",
+        "authenticity",
+        "stories",
+        "detail",
+        "curiosity",
+        "quiet time"
+      ],
+      "strengths": [
+        "listening"
+      ],
+      "gaps": [
+        "talking to people"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "I usually like being alone, but it was weirdly isolating",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed anecdotes; avoids direct answers; focuses on sensory experience."
+      }
+    }
+  },
+  {
+    "id": "s20",
+    "name": "Rahul",
+    "age_band": "25-34",
+    "persona": "quant-dropout",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "micro-managing",
+        "obsessed with spreadsheets"
+      ],
+      "direction": "They're shifting their focus from finance to supporting their children's education.",
+      "values": [
+        "connection",
+        "silly stuff",
+        "supporting children",
+        "rewarding relationships",
+        "persistence",
+        "beauty"
+      ],
+      "strengths": [
+        "supporting teenagers",
+        "understanding children"
+      ],
+      "gaps": [
+        "emailing parents"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "melted into the sofa, ordered pizza",
+        "comm_depth": "Long, reflective answers with frequent use of filler words ('Oh, man,' 'like,' 'you know'). Volunteers feelings ('I just melted into the sofa,' 'it was kind of nice'). Reflects on past experiences and motivations, detailing shifts in priorities and emotional states. Storytelling approach with personal anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s21",
+    "name": "Pooja",
+    "age_band": "45+",
+    "persona": "startup-grinder",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "endless meetings",
+        "talking without doing"
+      ],
+      "direction": "They are building an app called 'Connect' with Stripe for payment processing.",
+      "values": [
+        "shipping things",
+        "doing",
+        "actual data",
+        "making things better",
+        "seeing something work",
+        "problem-solving"
+      ],
+      "strengths": [
+        "API wrestling"
+      ],
+      "gaps": [
+        "user analytics dashboard"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "battling it, sweating bullets, fixing things",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories; avoids direct deflection; focuses on process and execution."
+      }
+    }
+  },
+  {
+    "id": "s22",
+    "name": "Rahul",
+    "age_band": "45+",
+    "persona": "phd-biologist",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "complaining",
+        "pointless chatter"
+      ],
+      "direction": "They are currently focused on analyzing whale migration data.",
+      "values": [
+        "humanity",
+        "depth",
+        "whale migration",
+        "fascination",
+        "quiet time",
+        "comfort"
+      ],
+      "strengths": [
+        "data analysis"
+      ],
+      "gaps": [
+        "social time"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just quiet and still – a weird relief",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling; avoids direct minimalism; consistent use of qualifying phrases ('like,' 'you know'); focuses on specific, niche interests."
+      }
+    }
+  },
+  {
+    "id": "s23",
+    "name": "Karan",
+    "age_band": "45+",
+    "persona": "standup-writer",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "loudly enthusiastic people"
+      ],
+      "direction": "They are currently processing mortgages at First National.",
+      "values": [
+        "notice",
+        "accuracy",
+        "order",
+        "observation",
+        "detail",
+        "comfort"
+      ],
+      "strengths": [
+        "spreadsheet management"
+      ],
+      "gaps": [
+        "petty cash reconciliation"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt kinda...stuck, you know?",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; deflects with humor and anecdotes; story-telling style; minimal bullet points."
+      }
+    }
+  },
+  {
+    "id": "s24",
+    "name": "Tara",
+    "age_band": "45+",
+    "persona": "returning-mom",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "not getting it",
+        "just saying ‘it looks fine’"
+      ],
+      "direction": "updating small business sites",
+      "values": [
+        "collaboration",
+        "debugging",
+        "focus",
+        "quiet",
+        "efficiency",
+        "satisfaction"
+      ],
+      "strengths": [
+        "simple HTML and CSS"
+      ],
+      "gaps": [
+        "debugging legacy code"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt pretty bummed, just… a quiet evening",
+        "comm_depth": "Frequent reflection, volunteering feelings ('frustrating,' 'bummed,' 'relief'), detailed stories (garden, homeschooling), avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s25",
+    "name": "Priya",
+    "age_band": "25-34",
+    "persona": "chess-teacher",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "talking about nothing"
+      ],
+      "direction": "They are developing a new chess opening system.",
+      "values": [
+        "reliability",
+        "strategy",
+        "streamlining",
+        "strategic thinking",
+        "depth",
+        "methodical"
+      ],
+      "strengths": [
+        "developing strategy",
+        "practice games"
+      ],
+      "gaps": [
+        "responding to emails"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "shut down and made a huge pot of lentil stew",
+        "comm_depth": "Long, reflective answers; volunteers feelings (e.g., 'draining,' 'pointless'); reflects on decisions and impact; prioritizes chess strategy."
+      }
+    }
+  },
+  {
+    "id": "s26",
+    "name": "Joseph",
+    "age_band": "35-44",
+    "persona": "travel-nurse",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who talk at you"
+      ],
+      "direction": "They are currently focused on hospital work.",
+      "values": [
+        "stability",
+        "connection",
+        "detail",
+        "precision",
+        "connections",
+        "indulgence"
+      ],
+      "strengths": [
+        "keeping up with meds",
+        "charting"
+      ],
+      "gaps": [
+        "connecting with people"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt weirdly empty, like a punch to the gut",
+        "comm_depth": "Frequent 'honestly?' hedges, long reflective answers, volunteers feelings unprompted, detailed stories about past moves and connections."
+      }
+    }
+  },
+  {
+    "id": "s27",
+    "name": "Pooja",
+    "age_band": "25-34",
+    "persona": "open-source-dev",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking at you without letting you speak"
+      ],
+      "direction": "building an image sorting library",
+      "values": [
+        "technical detail",
+        "depth",
+        "completing tasks",
+        "technical accuracy",
+        "optimization",
+        "problem-solving"
+      ],
+      "strengths": [
+        "building libraries",
+        "Python programming"
+      ],
+      "gaps": [
+        "fixing technical issues"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just wanted to chill",
+        "comm_depth": "Frequent 'um's, lengthy explanations of technical details, volunteers feelings ('frustrating', 'wanted to chill'), reflects on past debugging experiences, story-telling approach."
+      }
+    }
+  },
+  {
+    "id": "s28",
+    "name": "Rohit",
+    "age_band": "25-34",
+    "persona": "dance-choreographer",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "color-coded spreadsheets",
+        "micro-managing"
+      ],
+      "direction": "They are pursuing creative projects involving capturing movement.",
+      "values": [
+        "being",
+        "spontaneity",
+        "movement",
+        "authenticity",
+        "finding the unexpected",
+        "being needed"
+      ],
+      "strengths": [
+        "capturing movement"
+      ],
+      "gaps": [
+        "financial management"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "helping others, hauling furniture",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; reflects on experiences; story-telling style; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s29",
+    "name": "Priya",
+    "age_band": "25-34",
+    "persona": "retired-army",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "lack of transparency",
+        "unreliability"
+      ],
+      "direction": "They own a property in Vermont and need to maintain it.",
+      "values": [
+        "solid connection",
+        "dependable",
+        "consistency",
+        "maintenance",
+        "predictability",
+        "groundedness"
+      ],
+      "strengths": [
+        "property management"
+      ],
+      "gaps": [
+        "social interaction"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "made a pot of strong coffee, and read",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; detailed stories (Afghanistan); avoids direct deflection."
+      }
+    }
+  },
+  {
+    "id": "s30",
+    "name": "Joseph",
+    "age_band": "45+",
+    "persona": "poetry-editor",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you",
+        "monologues"
+      ],
+      "direction": "They are working on editing a collection of essays.",
+      "values": [
+        "connection",
+        "authenticity",
+        "beautiful work",
+        "depth",
+        "precision",
+        "resilience"
+      ],
+      "strengths": [
+        "editing"
+      ],
+      "gaps": [
+        "invoicing"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just me and the dripping",
+        "comm_depth": "Frequent 'um's, reflective answers, volunteers feelings unprompted, story-telling, avoids directness, admits exhaustion."
+      }
+    }
+  },
+  {
+    "id": "s31",
+    "name": "Sanjay",
+    "age_band": "35-44",
+    "persona": "robotics-undergrad",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "constant tangents"
+      ],
+      "direction": "They are working on building a robot and want help finishing it.",
+      "values": [
+        "dedication",
+        "problem-solving",
+        "completion",
+        "accuracy",
+        "precision",
+        "optimization"
+      ],
+      "strengths": [
+        "technical problem-solving"
+      ],
+      "gaps": [
+        "wiring diagrams",
+        "organization"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "collapsing on the couch and watching a documentary",
+        "comm_depth": "Frequent 'honestly?' and 'ugh' signals, long, detailed explanations of technical challenges, volunteering feelings of frustration and embarrassment, reflective on past decisions."
+      }
+    }
+  },
+  {
+    "id": "s32",
+    "name": "Sneha",
+    "age_band": "45+",
+    "persona": "cafe-owner",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "monologues about themselves"
+      ],
+      "direction": "They are focused on perfecting their coffee blend.",
+      "values": [
+        "depth",
+        "bouncing ideas",
+        "quality",
+        "perfection",
+        "precision",
+        "consistency"
+      ],
+      "strengths": [
+        "coffee blending",
+        "attention to detail"
+      ],
+      "gaps": [
+        "social interaction"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "watched a documentary on her phone",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; detailed anecdotes; avoids direct reflection; story-telling style."
+      }
+    }
+  },
+  {
+    "id": "s33",
+    "name": "Aditya",
+    "age_band": "45+",
+    "persona": "climate-analyst",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "shouting opinions without looking"
+      ],
+      "direction": "They are working on predicting sea level rise in Louisiana.",
+      "values": [
+        "depth",
+        "truth",
+        "accuracy",
+        "solid prediction",
+        "problem-solving",
+        "arguing"
+      ],
+      "strengths": [
+        "pulling data",
+        "running simulations"
+      ],
+      "gaps": [
+        "writing up a clear report"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "actually started going through old spreadsheets",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed explanations and data references; story-telling with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s34",
+    "name": "Ananya",
+    "age_band": "18-24",
+    "persona": "game-artist",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant plans"
+      ],
+      "direction": "They are creating a detailed fantasy map.",
+      "values": [
+        "sharing",
+        "regular connection",
+        "creative expression",
+        "detail",
+        "depth",
+        "satisfaction"
+      ],
+      "strengths": [
+        "drawing",
+        "creating detailed work"
+      ],
+      "gaps": [
+        "email communication"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the whole night building a LEGO castle",
+        "comm_depth": "Frequent 'um's, lengthy, reflective answers, volunteers feelings, avoids direct answers, story-telling, minimal bullet points."
+      }
+    }
+  },
+  {
+    "id": "s35",
+    "name": "Kavya",
+    "age_band": "45+",
+    "persona": "med-resident",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constant change of mind"
+      ],
+      "direction": "They are focused on their work at the hospital.",
+      "values": [
+        "reliability",
+        "real connection",
+        "understanding",
+        "depth",
+        "fascination",
+        "comfort"
+      ],
+      "strengths": [
+        "spreadsheet management"
+      ],
+      "gaps": [
+        "responding to family"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordered takeout and watched reality TV",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; frequent self-deprecation; story-telling with detail; avoids direct deflection."
+      }
+    }
+  },
+  {
+    "id": "s36",
+    "name": "Joseph",
+    "age_band": "35-44",
+    "persona": "street-photographer",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "loud displays of status"
+      ],
+      "direction": "They are collecting snippets of conversations and planning a photo book.",
+      "values": [
+        "memory",
+        "connection",
+        "authenticity",
+        "observation",
+        "storytelling",
+        "peace"
+      ],
+      "strengths": [
+        "observant",
+        "collector"
+      ],
+      "gaps": [
+        "completion",
+        "action"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "sat on fire escape, watching the rain",
+        "comm_depth": "Frequent self-disclosure, reflective answers, volunteers feelings, storytelling, avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s37",
+    "name": "Ananya",
+    "age_band": "45+",
+    "persona": "math-olympiad",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant complaining",
+        "lack of action"
+      ],
+      "direction": "They are preparing students for math competitions.",
+      "values": [
+        "loyalty",
+        "logic",
+        "depth",
+        "logical breakdown",
+        "keeping commitments",
+        "connection"
+      ],
+      "strengths": [
+        "proofs",
+        "intricate problems"
+      ],
+      "gaps": [
+        "connecting with people"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "chilled at my place, ordered pizza",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids direct reflection on emotions."
+      }
+    }
+  },
+  {
+    "id": "s38",
+    "name": "Sanjay",
+    "age_band": "25-34",
+    "persona": "ngo-organizer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "predictable",
+        "endless small talk"
+      ],
+      "direction": "They are currently coordinating supplies for a refugee shelter.",
+      "values": [
+        "companionship",
+        "simplicity",
+        "helpfulness",
+        "organization",
+        "smooth operation",
+        "satisfaction"
+      ],
+      "strengths": [
+        "coordination",
+        "contacting suppliers"
+      ],
+      "gaps": [
+        "sorting out flat"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordered pizza, binge-watched *Friends*",
+        "comm_depth": "Long, reflective answers; volunteers feelings (deflated, relieved); reflects on experiences; story-telling with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s39",
+    "name": "Aditya",
+    "age_band": "35-44",
+    "persona": "audiobook-narrator",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you",
+        "not listening"
+      ],
+      "direction": "trying to improve detail recognition in audiobooks",
+      "values": [
+        "shared experiences",
+        "authenticity",
+        "depth",
+        "good sentence",
+        "observation",
+        "quiet"
+      ],
+      "strengths": [
+        "detail recognition"
+      ],
+      "gaps": [
+        "talking to people"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "letting the quiet settle in",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling with specific examples (e.g., Hemingway’s silence, tax collector’s descendant); deflects with humor and self-deprecation."
+      }
+    }
+  },
+  {
+    "id": "s40",
+    "name": "Farhan",
+    "age_band": "35-44",
+    "persona": "quant-dropout",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking about themselves for ages"
+      ],
+      "direction": "They are currently teaching algebra and calculus at Northwood High.",
+      "values": [
+        "what matters",
+        "decency",
+        "understanding",
+        "optimizing",
+        "efficiency",
+        "satisfaction"
+      ],
+      "strengths": [
+        "preparing lessons",
+        "getting kids to understand"
+      ],
+      "gaps": [
+        "writing up student progress reports"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "slumped on the sofa, made tea",
+        "comm_depth": "Long reflective answers, volunteers feelings unprompted (e.g., 'it was just... different,' 'it felt... good'), story-telling with specific details (Lego Millennium Falcon, train schedules), contrasts past and present priorities."
+      }
+    }
+  },
+  {
+    "id": "s41",
+    "name": "Sneha",
+    "age_band": "18-24",
+    "persona": "startup-grinder",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking without action"
+      ],
+      "direction": "They are working on improving the group chat syncing for 'ConnectFlow'.",
+      "values": [
+        "action over talk",
+        "depth",
+        "functionality",
+        "actual output",
+        "reliability",
+        "optimization"
+      ],
+      "strengths": [
+        "backend development"
+      ],
+      "gaps": [
+        "onboarding flow"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "got a massive coffee and pushed through",
+        "comm_depth": "Long, reflective answers; volunteers feelings (frustration, happiness); detailed stories; avoids deflection; process-oriented."
+      }
+    }
+  },
+  {
+    "id": "s42",
+    "name": "Rahul",
+    "age_band": "25-34",
+    "persona": "phd-biologist",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who talk at you"
+      ],
+      "direction": "They are tracking bleaching events and analyzing samples from a coral reef survey.",
+      "values": [
+        "connection",
+        "depth",
+        "observation",
+        "detail",
+        "comfort",
+        "relaxation"
+      ],
+      "strengths": [
+        "detailed work",
+        "scientific analysis"
+      ],
+      "gaps": [
+        "social interaction"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just needing a night to not have to think about plankton",
+        "comm_depth": "Volunteers feelings frequently (e.g., 'craving connection,' 'weird for a marine biologist,' 'surprisingly nice, actually'). Reflects on experiences and shifts in perspective (e.g., 'humbling,' 'flipped my thinking'). Storytelling with detailed observations and specific examples (e.g., tidal pools, kayaking trip, *Pyrocystis noctiluca*)."
+      }
+    }
+  },
+  {
+    "id": "s43",
+    "name": "Priya",
+    "age_band": "25-34",
+    "persona": "standup-writer",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "loudly trying to be interesting"
+      ],
+      "direction": "They seem to be seeking a creative outlet, specifically writing.",
+      "values": [
+        "calmness",
+        "acceptance",
+        "humor",
+        "authenticity",
+        "observation",
+        "detail"
+      ],
+      "strengths": [
+        "detail-oriented",
+        "organization"
+      ],
+      "gaps": [
+        "creative expression"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "letting myself wallow in the absurdity",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids direct minimalism; frequent deflection with humorous coping mechanisms."
+      }
+    }
+  },
+  {
+    "id": "s44",
+    "name": "Kavya",
+    "age_band": "18-24",
+    "persona": "returning-mom",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "not pulling their weight"
+      ],
+      "direction": "They're balancing childcare with freelance web work.",
+      "values": [
+        "hands-on",
+        "projects",
+        "responsibility",
+        "practicality",
+        "efficiency",
+        "optimization"
+      ],
+      "strengths": [
+        "local business work"
+      ],
+      "gaps": [
+        "gutter cleaning"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "watched a really old movie",
+        "comm_depth": "Volunteers feelings, reflects on motivations, story-telling, detailed examples, avoids direct deflection."
+      }
+    }
+  },
+  {
+    "id": "s45",
+    "name": "Joseph",
+    "age_band": "35-44",
+    "persona": "chess-teacher",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "rambling",
+        "waste of time"
+      ],
+      "direction": "building a system to improve the team's win rate",
+      "values": [
+        "reliability",
+        "depth",
+        "improvement",
+        "system",
+        "strategy",
+        "patience"
+      ],
+      "strengths": [
+        "spreadsheet management"
+      ],
+      "gaps": [
+        "website updates"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "needed to reset, just ordered pizza",
+        "comm_depth": "Long, reflective answers; volunteers feelings (e.g., 'it was fine'); reflects on experiences; story-telling with detail; avoids superficiality."
+      }
+    }
+  },
+  {
+    "id": "s46",
+    "name": "Rahul",
+    "age_band": "25-34",
+    "persona": "travel-nurse",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "They are considering jobs in Boise and seem to be seeking a change of scenery.",
+      "values": [
+        "connection",
+        "vulnerability",
+        "consistency",
+        "practicality",
+        "observation",
+        "detail"
+      ],
+      "strengths": [
+        "managing busy shifts"
+      ],
+      "gaps": [
+        "sourdough bread cleanup"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "kinda settle in for the quiet",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; consistent deflection of direct questions with anecdotes; acknowledges emotional impact of events."
+      }
+    }
+  },
+  {
+    "id": "s47",
+    "name": "Vikram",
+    "age_band": "25-34",
+    "persona": "open-source-dev",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking at you",
+        "not listening"
+      ],
+      "direction": "trying to get a library to play back sounds properly",
+      "values": [
+        "joy",
+        "wrestling with data",
+        "working code",
+        "simplicity",
+        "efficiency",
+        "details"
+      ],
+      "strengths": [
+        "code working"
+      ],
+      "gaps": [
+        "deployment"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the evening debugging, writing tests",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed explanations of technical projects; story-telling with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s48",
+    "name": "Zoya",
+    "age_band": "35-44",
+    "persona": "dance-choreographer",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "obsessed with schedules"
+      ],
+      "direction": "They are developing a collaborative improv dance class.",
+      "values": [
+        "go with it",
+        "weirdness",
+        "freedom",
+        "collaboration",
+        "observation",
+        "patterns"
+      ],
+      "strengths": [
+        "bouncing ideas off others"
+      ],
+      "gaps": [
+        "writing down the rules"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt this huge relief afterwards",
+        "comm_depth": "Frequent 'Ugh, honestly?' and lengthy, reflective answers; volunteers feelings unprompted; story-telling with detailed descriptions and emotional expression."
+      }
+    }
+  },
+  {
+    "id": "s49",
+    "name": "Nikhil",
+    "age_band": "25-34",
+    "persona": "retired-army",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "talking about themselves without listening"
+      ],
+      "direction": "They are trying to get back into woodworking.",
+      "values": [
+        "reliability",
+        "dependability",
+        "completing projects",
+        "self-sufficiency",
+        "depth",
+        "consistency"
+      ],
+      "strengths": [
+        "woodworking"
+      ],
+      "gaps": [
+        "sitting still"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "making a pot of chili, put on music",
+        "comm_depth": "Frequent 'honestly?' openings, lengthy reflective answers, volunteers feelings, detailed anecdotes (Afghanistan, chili), consistent use of 'you know?'"
+      }
+    }
+  },
+  {
+    "id": "s50",
+    "name": "Ananya",
+    "age_band": "18-24",
+    "persona": "poetry-editor",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "people who talk at you"
+      ],
+      "direction": "working on a poetry collection by Elias Thorne",
+      "values": [
+        "depth",
+        "intimacy",
+        "precision",
+        "comfort",
+        "solitude",
+        "empathy"
+      ],
+      "strengths": [
+        "detailed work",
+        "critical analysis"
+      ],
+      "gaps": [
+        "communication"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "listening to Joni Mitchell, reading Plath",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s51",
+    "name": "Amit",
+    "age_band": "45+",
+    "persona": "robotics-undergrad",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "lack of planning",
+        "random suggestions"
+      ],
+      "direction": "They are building a complex mech with hydraulic suspension.",
+      "values": [
+        "mechanical expertise",
+        "strategy",
+        "precision",
+        "reliability",
+        "depth",
+        "optimization"
+      ],
+      "strengths": [
+        "complex builds",
+        "hydraulic suspension"
+      ],
+      "gaps": [
+        "sensor integration"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the whole evening wading through mud",
+        "comm_depth": "Long, detailed answers; volunteers feelings ('Ugh,' 'frustrated,' 'bummed'); reflects on process and motivations; story-telling with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s52",
+    "name": "Farhan",
+    "age_band": "18-24",
+    "persona": "cafe-owner",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "overly ambitious",
+        "self-promotion",
+        "unnecessary details"
+      ],
+      "direction": "Maintaining 'The Daily Grind' and serving regular customers.",
+      "values": [
+        "genuine conversation",
+        "genuine connection",
+        "comfort",
+        "observation",
+        "detail",
+        "quiet"
+      ],
+      "strengths": [
+        "remembering orders"
+      ],
+      "gaps": [
+        "reaching out to business groups"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just watched the rain with the bartender",
+        "comm_depth": "Frequent 'um' and 'okay' fillers, lengthy, reflective answers, volunteers feelings unprompted, detailed anecdotes (sourdough, pastries, Mrs. Henderson, NFT guy), story-telling style, avoids direct answers with deflection."
+      }
+    }
+  },
+  {
+    "id": "s53",
+    "name": "Mira",
+    "age_band": "25-34",
+    "persona": "climate-analyst",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "defaults to negativity",
+        "doesn't actually look at the facts"
+      ],
+      "direction": "trying to understand how Alaskan permafrost will change over 50 years",
+      "values": [
+        "discussion",
+        "depth",
+        "data",
+        "accuracy",
+        "truth",
+        "practicality"
+      ],
+      "strengths": [
+        "complex problem-solving"
+      ],
+      "gaps": [
+        "writing rebuttals"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "watching reruns of *Cosmos*",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed data analysis; story-telling; avoids simple deflection."
+      }
+    }
+  },
+  {
+    "id": "s54",
+    "name": "Neha",
+    "age_band": "25-34",
+    "persona": "game-artist",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "always on a schedule"
+      ],
+      "direction": "finishing a character design for an indie RPG",
+      "values": [
+        "venting",
+        "real connection",
+        "completion",
+        "creative work",
+        "depth",
+        "comfort"
+      ],
+      "strengths": [
+        "dedicated",
+        "focused"
+      ],
+      "gaps": [
+        "organisation",
+        "self-care"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just curled up with the TV",
+        "comm_depth": "Frequent use of 'Ugh,' lengthy, reflective answers, volunteers feelings ('felt kinda bummed,' 'it was the right thing to do'), story-telling, avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s55",
+    "name": "Vikram",
+    "age_band": "18-24",
+    "persona": "med-resident",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "phantom commitments"
+      ],
+      "direction": "They need four hours a week to do something for themselves.",
+      "values": [
+        "follow-through",
+        "solid connection",
+        "sourdough baking",
+        "avoiding overwhelm",
+        "depth",
+        "understanding"
+      ],
+      "strengths": [
+        "remembering patient needs"
+      ],
+      "gaps": [
+        "learning to bake sourdough"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordered spicy takeout, binge-watched a reality show",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; deflects with humor; uses storytelling; avoids bullet points."
+      }
+    }
+  },
+  {
+    "id": "s56",
+    "name": "Ananya",
+    "age_band": "45+",
+    "persona": "street-photographer",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking about themselves for ages"
+      ],
+      "direction": "trying to build a collection of faces and conversations",
+      "values": [
+        "quiet observation",
+        "story",
+        "genuine connection",
+        "storytelling",
+        "depth",
+        "authenticity"
+      ],
+      "strengths": [
+        "observant",
+        "listening"
+      ],
+      "gaps": [
+        "organisation"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "sitting on fire escape with tea and pretzels",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling; avoids direct minimalism; consistent focus on experiences and observations."
+      }
+    }
+  },
+  {
+    "id": "s57",
+    "name": "Zoya",
+    "age_band": "18-24",
+    "persona": "math-olympiad",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking about themselves forever"
+      ],
+      "direction": "They are currently focused on helping high school students prepare for the Math Olympiad.",
+      "values": [
+        "depth",
+        "understanding",
+        "helpfulness",
+        "complexity",
+        "quiet",
+        "comfort"
+      ],
+      "strengths": [
+        "breaking down proofs"
+      ],
+      "gaps": [
+        "doing math themselves"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "defaulted to making something, anything",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids direct reflection; detailed examples."
+      }
+    }
+  },
+  {
+    "id": "s58",
+    "name": "Dhruv",
+    "age_band": "45+",
+    "persona": "ngo-organizer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "over-planning",
+        "rigid itineraries"
+      ],
+      "direction": "They are working to deliver refugee support boxes to community centers.",
+      "values": [
+        "refugee support",
+        "laughter",
+        "chaos",
+        "energy",
+        "efficiency",
+        "detail"
+      ],
+      "strengths": [
+        "problem-solving",
+        "persistence"
+      ],
+      "gaps": [
+        "booking sessions"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering six pizzas and playing Cards Against Humanity",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s59",
+    "name": "Rohit",
+    "age_band": "25-34",
+    "persona": "audiobook-narrator",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you, not with you"
+      ],
+      "direction": "They need something 'real'.",
+      "values": [
+        "listening",
+        "venting",
+        "depth",
+        "attention to detail",
+        "quiet contemplation",
+        "authenticity"
+      ],
+      "strengths": [
+        "reading"
+      ],
+      "gaps": [
+        "social interaction"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just wanting to be somewhere else",
+        "comm_depth": "Frequent 'honestly?' hedges, lengthy reflective answers, volunteers feelings, story-telling, avoids directness."
+      }
+    }
+  },
+  {
+    "id": "s60",
+    "name": "Neha",
+    "age_band": "18-24",
+    "persona": "quant-dropout",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "They're enjoying their work with the high school students.",
+      "values": [
+        "depth",
+        "values",
+        "understanding",
+        "teaching",
+        "step-by-step problem-solving",
+        "historical analysis"
+      ],
+      "strengths": [
+        "explaining limits"
+      ],
+      "gaps": [
+        "sending invoices"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "fussing over him until his mom got home",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed reflections on past experiences and values."
+      }
+    }
+  },
+  {
+    "id": "s61",
+    "name": "Priya",
+    "age_band": "18-24",
+    "persona": "startup-grinder",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking about ideas without action"
+      ],
+      "direction": "building something concrete",
+      "values": [
+        "action over talk",
+        "depth",
+        "shipping",
+        "action",
+        "precision",
+        "problem-solving"
+      ],
+      "strengths": [
+        "shipping nightly"
+      ],
+      "gaps": [
+        "analytics dashboards"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "working until 2 am, just hammering away",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples; avoids minimalism; consistent deflection of abstract discussion."
+      }
+    }
+  },
+  {
+    "id": "s62",
+    "name": "Zoya",
+    "age_band": "18-24",
+    "persona": "phd-biologist",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "talking at you",
+        "not listening"
+      ],
+      "direction": "trying to figure out how bleaching impacts specific species",
+      "values": [
+        "normal",
+        "balance",
+        "depth",
+        "accuracy",
+        "detail",
+        "observation"
+      ],
+      "strengths": [
+        "analyzing data",
+        "comparing growth rates"
+      ],
+      "gaps": [
+        "reaching out to others"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "staring at the rain against the window",
+        "comm_depth": "Frequent 'honestly?' and 'um,' lengthy, reflective answers; volunteers feelings (lonely, frustrated); detailed storytelling about research; avoids direct answers about personal needs."
+      }
+    }
+  },
+  {
+    "id": "s63",
+    "name": "Sanjay",
+    "age_band": "18-24",
+    "persona": "standup-writer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "loud enthusiasm"
+      ],
+      "direction": "They are working at First National, likely in a finance role.",
+      "values": [
+        "laughter",
+        "self-deprecation",
+        "consistency",
+        "reliability",
+        "observation",
+        "detail"
+      ],
+      "strengths": [
+        "transaction verification"
+      ],
+      "gaps": [
+        "performing",
+        "open mic"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordered a pizza and watched a documentary",
+        "comm_depth": "Frequent 'okay, honestly?' openings, lengthy, reflective answers, volunteers feelings, detailed anecdotes, consistent use of 'beige' as a descriptor, self-deprecating humor."
+      }
+    }
+  },
+  {
+    "id": "s64",
+    "name": "Mira",
+    "age_band": "18-24",
+    "persona": "returning-mom",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking at you",
+        "not listening"
+      ],
+      "direction": "They are trying to revive old React projects.",
+      "values": [
+        "functionality",
+        "completion",
+        "family",
+        "stability",
+        "precision",
+        "optimization"
+      ],
+      "strengths": [
+        "juggling multiple tasks"
+      ],
+      "gaps": [
+        "writing code"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 35,
+        "confidence": 35
+      },
+      "evidence": {
+        "energy": "scrolling through Stack Overflow",
+        "comm_depth": "Frequent 'um's, short answers, deflection with 'you know,' volunteering minimal feelings, story-telling with anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s65",
+    "name": "Karan",
+    "age_band": "35-44",
+    "persona": "chess-teacher",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "rambling",
+        "unstructured energy"
+      ],
+      "direction": "trying to get a really solid system going for the junior team",
+      "values": [
+        "friendship",
+        "optimization",
+        "system",
+        "strategic thinking",
+        "depth",
+        "strategic advantage"
+      ],
+      "strengths": [
+        "data analysis",
+        "strategic thinking"
+      ],
+      "gaps": [
+        "teaching"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "staring at the board, making tea",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; consistently reflects on process and strategy; story-telling with detailed examples."
+      }
+    }
+  },
+  {
+    "id": "s66",
+    "name": "Neha",
+    "age_band": "25-34",
+    "persona": "travel-nurse",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constant complaining"
+      ],
+      "direction": "They want to get back into pottery.",
+      "values": [
+        "sticking around",
+        "sticking with things",
+        "creative expression",
+        "depth",
+        "stories",
+        "stability"
+      ],
+      "strengths": [
+        "charting patients"
+      ],
+      "gaps": [
+        "starting pottery"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "basically hibernated until it cleared up",
+        "comm_depth": "Long, reflective answers; volunteers feelings (bummer, solid); deflects with 'you know'; story-telling (history of equipment, blizzard)."
+      }
+    }
+  },
+  {
+    "id": "s67",
+    "name": "Vikram",
+    "age_band": "18-24",
+    "persona": "open-source-dev",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "constant rambling",
+        "lack of focus"
+      ],
+      "direction": "working on an audio processing library",
+      "values": [
+        "getting things done",
+        "efficiency",
+        "accuracy",
+        "thoroughness",
+        "satisfaction",
+        "deep sea creatures"
+      ],
+      "strengths": [
+        "technical problem-solving"
+      ],
+      "gaps": [
+        "tutorial writing"
+      ],
+      "energy": {
+        "value": 35,
+        "confidence": 35
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordered Thai and watched a documentary",
+        "comm_depth": "Long, reflective answers; volunteers feelings (bummed, satisfying); detailed stories with specific examples; avoids direct reflection."
+      }
+    }
+  },
+  {
+    "id": "s68",
+    "name": "Lakshmi",
+    "age_band": "25-34",
+    "persona": "dance-choreographer",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "people who try to tell me exactly what to do"
+      ],
+      "direction": "preparing for a street performance involving unexpected collisions and movement.",
+      "values": [
+        "experimentation",
+        "letting go",
+        "collaboration",
+        "movement",
+        "observation",
+        "detail"
+      ],
+      "strengths": [
+        "reacting to others"
+      ],
+      "gaps": [
+        "sorting costume samples"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "called someone, jammed for three hours",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; minimal bullet points; frequent 'seriously?' interjections."
+      }
+    }
+  },
+  {
+    "id": "s69",
+    "name": "Mira",
+    "age_band": "45+",
+    "persona": "retired-army",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "talking about themselves"
+      ],
+      "direction": "They are attempting to manage a large, neglected garden.",
+      "values": [
+        "solid connection",
+        "completion",
+        "support",
+        "depth",
+        "understanding",
+        "helping others"
+      ],
+      "strengths": [
+        "recognising overwhelm"
+      ],
+      "gaps": [
+        "gardening",
+        "procrastination"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stayed in. Made a proper stew",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; reflects on past experiences; story-telling with detailed anecdotes; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s70",
+    "name": "Isha",
+    "age_band": "25-34",
+    "persona": "poetry-editor",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you",
+        "not listening"
+      ],
+      "direction": "I'm focused on developing this poetry collection.",
+      "values": [
+        "depth",
+        "authenticity",
+        "detail",
+        "texture",
+        "quiet contentment",
+        "peace"
+      ],
+      "strengths": [
+        "precise adjustment",
+        "creative process"
+      ],
+      "gaps": [
+        "marketing"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "sat by the window reading Neruda",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling; consistent reflection on past experiences; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s71",
+    "name": "Priya",
+    "age_band": "45+",
+    "persona": "robotics-undergrad",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "lack of engagement",
+        "no curiosity"
+      ],
+      "direction": "They are working on a new robot design, the Crimson Talon.",
+      "values": [
+        "competition",
+        "pizza",
+        "precision",
+        "efficiency",
+        "reliability",
+        "problem-solving"
+      ],
+      "strengths": [
+        "mechanical design"
+      ],
+      "gaps": [
+        "electrical wiring"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "watched old mech anime, ordered pizza",
+        "comm_depth": "Detailed, lengthy answers; volunteers feelings (frustration, excitement); reflects on decisions and motivations; story-telling approach with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s72",
+    "name": "Rohit",
+    "age_band": "18-24",
+    "persona": "cafe-owner",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "crypto investments",
+        "manifesting"
+      ],
+      "direction": "trying to improve the pastry display",
+      "values": [
+        "realness",
+        "stories",
+        "consistency",
+        "attention to detail",
+        "curiosity",
+        "detail"
+      ],
+      "strengths": [
+        "remembering preferences"
+      ],
+      "gaps": [
+        "reaching out to people"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just piled it on the couch, and we watched",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently (e.g., 'I’m just…tired,' 'it felt better than any fancy dinner'); frequently reflects on experiences and motivations; avoids direct, concise responses; uses storytelling extensively."
+      }
+    }
+  },
+  {
+    "id": "s74",
+    "name": "Kavya",
+    "age_band": "18-24",
+    "persona": "game-artist",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant need for information"
+      ],
+      "direction": "They are working on digital art for indie game projects.",
+      "values": [
+        "chill",
+        "understanding",
+        "creative expression",
+        "completion",
+        "depth",
+        "captivating"
+      ],
+      "strengths": [
+        "monster design",
+        "digital art"
+      ],
+      "gaps": [
+        "cleaning"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ended up ordering way too much takeout",
+        "comm_depth": "Frequent 'um's, reflective answers, volunteers feelings, avoids directness, story-telling, leans into personal experience."
+      }
+    }
+  },
+  {
+    "id": "s75",
+    "name": "Tara",
+    "age_band": "25-34",
+    "persona": "med-resident",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "ghosting",
+        "lateness",
+        "vagueness",
+        "lack of follow-through"
+      ],
+      "direction": "They are currently focused on their medical practice and patient care.",
+      "values": [
+        "connection",
+        "authenticity",
+        "family",
+        "guilt",
+        "detail",
+        "calm"
+      ],
+      "strengths": [
+        "memorizing obscure diseases"
+      ],
+      "gaps": [
+        "scheduling a hike"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "needed a solid, predictable evening",
+        "comm_depth": "Long, reflective answers with frequent 'like' and filler words. Volunteers feelings ('starved for connection,' 'bummed,' 'snapped'). Reflects on past decisions and motivations ('prioritizing bureaucracy'). Story-telling approach with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s76",
+    "name": "Mira",
+    "age_band": "45+",
+    "persona": "street-photographer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "forced performances"
+      ],
+      "direction": "They are currently documenting their experiences in Brooklyn.",
+      "values": [
+        "genuine connection",
+        "observing life",
+        "stories",
+        "good light",
+        "observation",
+        "understanding"
+      ],
+      "strengths": [
+        "hunting for stories"
+      ],
+      "gaps": [
+        "editing photos"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "feeling a little bummed I missed a good yarn",
+        "comm_depth": "Long, rambling answers; frequent volunteering of feelings; reflective on experiences; storytelling style; avoids direct answers with deflection."
+      }
+    }
+  },
+  {
+    "id": "s77",
+    "name": "Pooja",
+    "age_band": "45+",
+    "persona": "math-olympiad",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constant self-talk",
+        "wasting time"
+      ],
+      "direction": "preparing kids for Math Olympiads",
+      "values": [
+        "companionship",
+        "simplicity",
+        "depth",
+        "dedication",
+        "logic",
+        "comfort"
+      ],
+      "strengths": [
+        "complex topics",
+        "mentoring"
+      ],
+      "gaps": [
+        "responding to family"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just… stayed in, ordered a huge pizza",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; detailed stories; avoids direct deflection; prioritizes process and experience."
+      }
+    }
+  },
+  {
+    "id": "s78",
+    "name": "Sneha",
+    "age_band": "45+",
+    "persona": "ngo-organizer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who are always trying to schedule things"
+      ],
+      "direction": "They are involved in a community garden project and NGO work.",
+      "values": [
+        "genuine connection",
+        "support",
+        "rewarding",
+        "community",
+        "depth",
+        "satisfaction"
+      ],
+      "strengths": [
+        "coordinating",
+        "scheduling"
+      ],
+      "gaps": [
+        "spending time with niece"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "we built a massive fort out of blankets",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed logistics descriptions; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s79",
+    "name": "Karan",
+    "age_band": "45+",
+    "persona": "audiobook-narrator",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "rambling about nothing",
+        "not really listening"
+      ],
+      "direction": "They are currently immersed in audiobooks at the library.",
+      "values": [
+        "sharing",
+        "listening",
+        "quiet",
+        "depth",
+        "authenticity",
+        "quiet contemplation"
+      ],
+      "strengths": [
+        "listening"
+      ],
+      "gaps": [
+        "talking to people"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt pretty bummed at first, just…quiet",
+        "comm_depth": "Frequent 'Ugh, okay' starts, lengthy reflective answers, volunteers feelings, avoids direct answers, story-telling"
+      }
+    }
+  },
+  {
+    "id": "s80",
+    "name": "Priya",
+    "age_band": "18-24",
+    "persona": "quant-dropout",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "They're questioning the importance of money and seeking a deeper understanding.",
+      "values": [
+        "understanding",
+        "meaning",
+        "accuracy",
+        "support",
+        "financial security",
+        "student wellbeing"
+      ],
+      "strengths": [
+        "running a department",
+        "explaining concepts"
+      ],
+      "gaps": [
+        "grading homework"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt so cozy and slightly smug",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; consistent reflection on past priorities and current values."
+      }
+    }
+  },
+  {
+    "id": "s81",
+    "name": "Aditya",
+    "age_band": "35-44",
+    "persona": "startup-grinder",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking about ideas without action"
+      ],
+      "direction": "They are currently focused on completing the Connectify user onboarding flow.",
+      "values": [
+        "action",
+        "depth",
+        "proven functionality",
+        "making a difference",
+        "building",
+        "reliability"
+      ],
+      "strengths": [
+        "React and Rails backend development"
+      ],
+      "gaps": [
+        "proper monitoring"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "locked myself in, grabbed Monster, rebuilt database",
+        "comm_depth": "Long, reflective answers; volunteers feelings ('frustrating,' 'felt good,' 'brutal'); detailed stories (supply chain, server crash, onboarding changes)."
+      }
+    }
+  },
+  {
+    "id": "s82",
+    "name": "Aditya",
+    "age_band": "18-24",
+    "persona": "phd-biologist",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "vague chatter",
+        "not doing anything"
+      ],
+      "direction": "studying the impact of microplastics on oyster populations",
+      "values": [
+        "connection",
+        "genuine",
+        "depth",
+        "accuracy",
+        "fascination",
+        "comfort"
+      ],
+      "strengths": [
+        "data analysis",
+        "lab work"
+      ],
+      "gaps": [
+        "writing conclusions"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt…oddly peaceful, like a quiet evening",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories; avoids direct minimalism; consistent use of qualifiers ('like,' 'seriously,' 'honestly')"
+      }
+    }
+  },
+  {
+    "id": "s83",
+    "name": "Mira",
+    "age_band": "18-24",
+    "persona": "standup-writer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "trying to make the balance sheet funny",
+      "values": [
+        "tolerance",
+        "laughter",
+        "humor",
+        "imagination",
+        "observation",
+        "details"
+      ],
+      "strengths": [
+        "imagining funny parts"
+      ],
+      "gaps": [
+        "doing the balance sheet"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt like a tiny victory against chaos",
+        "comm_depth": "Frequent 'honestly?' hedges, long, detailed anecdotes, volunteers feelings, reflects on experiences, story-telling."
+      }
+    }
+  },
+  {
+    "id": "s84",
+    "name": "Sneha",
+    "age_band": "45+",
+    "persona": "returning-mom",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "constant interruptions"
+      ],
+      "direction": "He's focused on helping his son with his coding projects.",
+      "values": [
+        "depth",
+        "action over talk",
+        "stability",
+        "reliability",
+        "precision",
+        "optimization"
+      ],
+      "strengths": [
+        "debugging",
+        "Python"
+      ],
+      "gaps": [
+        "CI/CD pipeline"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 35,
+        "confidence": 35
+      },
+      "evidence": {
+        "energy": "ordered pizza and watched a documentary",
+        "comm_depth": "Frequent 'um's, short answers, deflection, volunteering feelings sparingly, mostly reflecting on experiences."
+      }
+    }
+  },
+  {
+    "id": "s85",
+    "name": "Aarav",
+    "age_band": "45+",
+    "persona": "chess-teacher",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "endless chatter",
+        "fleeting interactions"
+      ],
+      "direction": "I'm focused on improving the team's game strategy.",
+      "values": [
+        "solid setup",
+        "reliable",
+        "depth",
+        "teamwork",
+        "understanding",
+        "productivity"
+      ],
+      "strengths": [
+        "drilling tactics",
+        "figuring out openings"
+      ],
+      "gaps": [
+        "having conversations"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering Thai, studying opening theory books",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories; avoids superficiality; prioritizes structure and planning."
+      }
+    }
+  },
+  {
+    "id": "s86",
+    "name": "Lakshmi",
+    "age_band": "35-44",
+    "persona": "travel-nurse",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who talk about themselves"
+      ],
+      "direction": "They are planning to move to Nashville and are concerned about the coffee situation.",
+      "values": [
+        "genuine connection",
+        "patient care",
+        "detail",
+        "memorability",
+        "anticipation",
+        "novelty"
+      ],
+      "strengths": [
+        "charting",
+        "administering medication"
+      ],
+      "gaps": [
+        "finding a good coffee shop"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just ordering pizza and binge-watching",
+        "comm_depth": "Frequent 'um's, lengthy reflective answers, volunteers feelings unprompted, shares personal anecdotes, deflects with humor."
+      }
+    }
+  },
+  {
+    "id": "s87",
+    "name": "Dhruv",
+    "age_band": "45+",
+    "persona": "open-source-dev",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking without listening"
+      ],
+      "direction": "They are working on a niche image manipulation library.",
+      "values": [
+        "robustness",
+        "practicality",
+        "stability",
+        "reliability",
+        "realism",
+        "organic"
+      ],
+      "strengths": [
+        "technical skills",
+        "problem-solving"
+      ],
+      "gaps": [
+        "documentation",
+        "organization"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stared at lines of code, fixing my library",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories; reflects on process and frustration; avoids direct answers sometimes; minimal bullet-point minimalism."
+      }
+    }
+  },
+  {
+    "id": "s88",
+    "name": "Aditya",
+    "age_band": "18-24",
+    "persona": "dance-choreographer",
+    "profile": {
+      "intent": null,
+      "dealbreakers": [
+        "people who try to tell me exactly what to do"
+      ],
+      "direction": "They are working on a community piece for the Fringe.",
+      "values": [
+        "weirdness",
+        "mess",
+        "spontaneous movement",
+        "reacting to others",
+        "observation",
+        "detail"
+      ],
+      "strengths": [
+        "obsessed with it"
+      ],
+      "gaps": [
+        "filming it"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "letting the music dictate what I did",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; deflects with humor and anecdotes; story-telling style; minimal bullet points."
+      }
+    }
+  },
+  {
+    "id": "s89",
+    "name": "Farhan",
+    "age_band": "45+",
+    "persona": "retired-army",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who don’t follow through"
+      ],
+      "direction": "They are attempting to learn woodworking.",
+      "values": [
+        "reliability",
+        "honesty",
+        "getting things done",
+        "avoiding embarrassment",
+        "making things work",
+        "problem-solving"
+      ],
+      "strengths": [
+        "used to getting things done"
+      ],
+      "gaps": [
+        "finishing projects"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering pizza and watching documentaries",
+        "comm_depth": "Frequent 'honestly?' openings, lengthy reflective answers, volunteers feelings (e.g., 'terrible use of time,' 'felt a bit pointless,' 'felt like a complete idiot'), detailed stories, avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s90",
+    "name": "Sanjay",
+    "age_band": "35-44",
+    "persona": "poetry-editor",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking at you",
+        "not listening",
+        "rephrasing the same stuff"
+      ],
+      "direction": "He's currently working on a collection of writing by Silas Blackwood.",
+      "values": [
+        "substantive connection",
+        "depth",
+        "evocative writing",
+        "precision",
+        "subtlety",
+        "peace"
+      ],
+      "strengths": [
+        "endless tweaks",
+        "layouts and font sizes"
+      ],
+      "gaps": [
+        "marketing stuff"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "staying in, brewed tea, read Rumi",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; frequent self-reflection; story-telling with personal anecdotes; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s91",
+    "name": "Farhan",
+    "age_band": "18-24",
+    "persona": "robotics-undergrad",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "wing it",
+        "no details",
+        "random upgrades"
+      ],
+      "direction": "They are working towards a competition with their bot, Ragnarok.",
+      "values": [
+        "practicality",
+        "competence",
+        "completion",
+        "action",
+        "efficiency",
+        "accuracy"
+      ],
+      "strengths": [
+        "robotics",
+        "coding"
+      ],
+      "gaps": [
+        "documentation"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "watched old mech anime, tried sensors on laptop",
+        "comm_depth": "Long, detailed answers; volunteers feelings ('seriously bummed'); reflects on decisions and motivations; story-telling focused on robot building."
+      }
+    }
+  },
+  {
+    "id": "s92",
+    "name": "Ananya",
+    "age_band": "35-44",
+    "persona": "cafe-owner",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "monologues about themselves"
+      ],
+      "direction": "They are maintaining a small operation, focused on basic needs.",
+      "values": [
+        "depth",
+        "small details",
+        "quiet time",
+        "authenticity",
+        "observation",
+        "mediation"
+      ],
+      "strengths": [
+        "practical tasks",
+        "problem-solving"
+      ],
+      "gaps": [
+        "social interaction"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "I ended up just making a double espresso, put on some old Bowie, and actually just read a chapter.",
+        "comm_depth": "Frequent 'um's, lengthy reflective answers, volunteers feelings unprompted, detailed anecdotes, story-telling, minimal bullet-point responses."
+      }
+    }
+  },
+  {
+    "id": "s93",
+    "name": "Ananya",
+    "age_band": "18-24",
+    "persona": "climate-analyst",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "spouting off without data",
+        "waste of time"
+      ],
+      "direction": "They are researching hurricane predictions and the accuracy of those predictions.",
+      "values": [
+        "depth",
+        "truth",
+        "accuracy",
+        "data",
+        "environmental awareness",
+        "observation"
+      ],
+      "strengths": [
+        "detailed research"
+      ],
+      "gaps": [
+        "writing a paper"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "staring at ice melting",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed data-driven explanations; story-telling with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s94",
+    "name": "Sanjay",
+    "age_band": "45+",
+    "persona": "game-artist",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "rigid timelines",
+        "color-coded spreadsheets"
+      ],
+      "direction": "They are currently working on freelance video game art, specifically fantasy landscapes.",
+      "values": [
+        "depth",
+        "creativity",
+        "art",
+        "detail",
+        "persistence",
+        "comfort"
+      ],
+      "strengths": [
+        "drawing",
+        "fantasy landscapes"
+      ],
+      "gaps": [
+        "sending invoices"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering pizza and losing myself in a game",
+        "comm_depth": "Frequent 'Ugh,' repetitive deflection, long, reflective answers, volunteers feelings unprompted, story-telling, avoids direct answers."
+      }
+    }
+  },
+  {
+    "id": "s95",
+    "name": "Priya",
+    "age_band": "18-24",
+    "persona": "med-resident",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "lack of follow-through",
+        "vague promises"
+      ],
+      "direction": "They want to spend time outdoors, specifically on hikes.",
+      "values": [
+        "reliability",
+        "depth",
+        "cleanliness",
+        "mental wellbeing",
+        "precision",
+        "anticipation"
+      ],
+      "strengths": [
+        "hiking",
+        "completing physical challenges"
+      ],
+      "gaps": [
+        "apartment cleaning"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering a huge order, binge-watching episodes",
+        "comm_depth": "Frequent use of 'um,' 'okay,' and 'like,' long reflective answers, volunteers feelings unprompted, detailed stories (Eagle Peak, Parasite cancellation, Dr. Ramirez), minimal bullet-point minimalism."
+      }
+    }
+  },
+  {
+    "id": "s96",
+    "name": "Dhruv",
+    "age_band": "45+",
+    "persona": "street-photographer",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you",
+        "rattling off stories"
+      ],
+      "direction": "They are documenting snippets of people's lives through photography.",
+      "values": [
+        "weird stories",
+        "different perspectives",
+        "authenticity",
+        "discovery",
+        "observation",
+        "storytelling"
+      ],
+      "strengths": [
+        "observant",
+        "curious"
+      ],
+      "gaps": [
+        "editing",
+        "commitment"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "it turned out to be way better than dinner",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling; avoids direct answers; focuses on observation and experience."
+      }
+    }
+  },
+  {
+    "id": "s97",
+    "name": "Amit",
+    "age_band": "45+",
+    "persona": "math-olympiad",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant interruptions",
+        "not listening"
+      ],
+      "direction": "preparing for the national Maths Olympiad competition.",
+      "values": [
+        "problem-solving",
+        "connection",
+        "depth",
+        "excellence",
+        "fascination",
+        "competence"
+      ],
+      "strengths": [
+        "explaining stuff"
+      ],
+      "gaps": [
+        "being present with someone"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "staring at the whiteboard and feeling useless",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories; deflects with explanations; minimal bullet-point responses."
+      }
+    }
+  },
+  {
+    "id": "s98",
+    "name": "Mira",
+    "age_band": "45+",
+    "persona": "ngo-organizer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "They are organizing a refugee camp outreach with winter blankets and hot meals.",
+      "values": [
+        "chaos",
+        "venting",
+        "coordination",
+        "satisfaction",
+        "community",
+        "collaboration"
+      ],
+      "strengths": [
+        "logistics",
+        "coordination"
+      ],
+      "gaps": [
+        "enjoying leisure activities"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt good to be unorganized and goofy",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; minimal bullet-point minimalism; consistent use of 'honestly' and 'seriously'."
+      }
+    }
+  },
+  {
+    "id": "s99",
+    "name": "Karan",
+    "age_band": "45+",
+    "persona": "audiobook-narrator",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "rambling",
+        "not wanting an opinion"
+      ],
+      "direction": "They are currently immersed in audiobooks at the library.",
+      "values": [
+        "real connection",
+        "listening",
+        "stories",
+        "detail",
+        "depth",
+        "quiet"
+      ],
+      "strengths": [
+        "reading audiobooks"
+      ],
+      "gaps": [
+        "reaching out to others"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just settled into my booth here at the library",
+        "comm_depth": "Frequent 'um's, lengthy reflective answers, volunteers feelings unprompted, avoids direct answers, story-telling with detail."
+      }
+    }
+  },
+  {
+    "id": "s100",
+    "name": "Mira",
+    "age_band": "35-44",
+    "persona": "quant-dropout",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "They are currently focused on grading papers.",
+      "values": [
+        "genuine",
+        "optimizing",
+        "compassion",
+        "responsibility",
+        "solid foundation",
+        "building"
+      ],
+      "strengths": [
+        "detailed work",
+        "meticulous"
+      ],
+      "gaps": [
+        "connecting with parents"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "letting her build a fort",
+        "comm_depth": "Frequent 'Okay, yeah, that’s a good one' openings, lengthy reflective answers, volunteers feelings, detailed anecdotes, uses metaphors (spreadsheets, optimizing, building a foundation)."
+      }
+    }
+  },
+  {
+    "id": "s101",
+    "name": "Zoya",
+    "age_band": "18-24",
+    "persona": "startup-grinder",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking about problems without action"
+      ],
+      "direction": "They are working on a CRM integration for smaller agencies.",
+      "values": [
+        "shipping things",
+        "action",
+        "accuracy",
+        "realism",
+        "automation",
+        "optimization"
+      ],
+      "strengths": [
+        "problem-solving"
+      ],
+      "gaps": [
+        "data analysis"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "bulldoze through a problem, you know",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples; avoids direct deflection."
+      }
+    }
+  },
+  {
+    "id": "s102",
+    "name": "Aditya",
+    "age_band": "18-24",
+    "persona": "phd-biologist",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who talk at you",
+        "constant noise"
+      ],
+      "direction": "They are analyzing coral bleaching patterns.",
+      "values": [
+        "connection",
+        "depth",
+        "accuracy",
+        "detail",
+        "observation",
+        "building worlds"
+      ],
+      "strengths": [
+        "data analysis"
+      ],
+      "gaps": [
+        "communication"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just watched *The Princess Bride* for the tenth time",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling; avoids direct answers; focuses on specific observations."
+      }
+    }
+  },
+  {
+    "id": "s103",
+    "name": "Dhruv",
+    "age_band": "25-34",
+    "persona": "standup-writer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "talking about themselves non-stop"
+      ],
+      "direction": "They seem to be stuck in a repetitive, uninspiring job.",
+      "values": [
+        "genuine laughter",
+        "shared weirdness",
+        "efficiency",
+        "order",
+        "observation",
+        "documentation"
+      ],
+      "strengths": [
+        "detail-oriented"
+      ],
+      "gaps": [
+        "embracing change",
+        "problem-solving"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spending time alone, watching old episodes",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling; avoids direct minimalism; consistent personal anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s104",
+    "name": "Zoya",
+    "age_band": "35-44",
+    "persona": "returning-mom",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "dominating conversations",
+        "feeling ignored"
+      ],
+      "direction": "They are building small websites for their children's school projects.",
+      "values": [
+        "getting things done",
+        "responsibility",
+        "support",
+        "perfection",
+        "dedication",
+        "care"
+      ],
+      "strengths": [
+        "managing children",
+        "basic website building"
+      ],
+      "gaps": [
+        "large projects",
+        "completing projects"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 35,
+        "confidence": 35
+      },
+      "evidence": {
+        "energy": "just being there, watching old movies",
+        "comm_depth": "Frequent 'um's, short answers, deflection, volunteering feelings sparingly, reflecting on experiences with hesitation."
+      }
+    }
+  },
+  {
+    "id": "s105",
+    "name": "Karan",
+    "age_band": "18-24",
+    "persona": "chess-teacher",
+    "profile": {
+      "intent": null,
+      "dealbreakers": [
+        "rambling",
+        "repetitive information"
+      ],
+      "direction": "They are developing a system for analyzing chess games.",
+      "values": [
+        "reliable",
+        "consistency",
+        "solid base",
+        "strategy",
+        "recognizing patterns",
+        "understanding logic"
+      ],
+      "strengths": [
+        "analyzing games",
+        "building systems"
+      ],
+      "gaps": [
+        "playing chess"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stayed in. It wasn’t ideal, felt a bit pointless",
+        "comm_depth": "Long, reflective answers; volunteers feelings (annoyed, relieved, better); detailed stories (chess team, chicken prep, Ben's rotation); avoids superficiality (fantasy football)."
+      }
+    }
+  },
+  {
+    "id": "s106",
+    "name": "Lakshmi",
+    "age_band": "45+",
+    "persona": "travel-nurse",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who constantly need something"
+      ],
+      "direction": "They are currently working at St. Luke’s in Pittsburgh.",
+      "values": [
+        "genuine laughter",
+        "solid base",
+        "stability",
+        "self-care",
+        "detail",
+        "history"
+      ],
+      "strengths": [
+        "managing a busy environment"
+      ],
+      "gaps": [
+        "taking a pottery class"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt this weird pang of loneliness",
+        "comm_depth": "Long, reflective answers with frequent 'Oh my gosh' and 'like.' Volunteers feelings unprompted (loneliness, sadness, exhaustion). Reflects on past decisions and motivations. Story-telling with specific details (vintage sewing machines, Thai food, Asheville concert)."
+      }
+    }
+  },
+  {
+    "id": "s107",
+    "name": "Lakshmi",
+    "age_band": "18-24",
+    "persona": "open-source-dev",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking at you, not with you"
+      ],
+      "direction": "They are developing a library for image transformations.",
+      "values": [
+        "practicality",
+        "development",
+        "knowing it needs work",
+        "detail",
+        "accuracy",
+        "persistence"
+      ],
+      "strengths": [
+        "building a library"
+      ],
+      "gaps": [
+        "testing it properly"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just stared at screen, shut down",
+        "comm_depth": "Frequent, lengthy answers detailing technical projects, volunteering feelings of frustration and self-doubt, reflecting on past decisions, and avoiding direct emotional responses."
+      }
+    }
+  },
+  {
+    "id": "s108",
+    "name": "Vikram",
+    "age_band": "35-44",
+    "persona": "dance-choreographer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "rigid schedules",
+        "obsessive planning"
+      ],
+      "direction": "They are developing a series of classes where people can freely express themselves.",
+      "values": [
+        "movement",
+        "creativity",
+        "freedom",
+        "authenticity",
+        "observation",
+        "patterns"
+      ],
+      "strengths": [
+        "inspiring others"
+      ],
+      "gaps": [
+        "marketing material"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "a slightly damp couch and a craving for Pad See Ew",
+        "comm_depth": "Long, reflective answers, volunteers feelings unprompted. Story-telling consistently used, minimal bullet-point minimalism."
+      }
+    }
+  },
+  {
+    "id": "s109",
+    "name": "Rohit",
+    "age_band": "45+",
+    "persona": "retired-army",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "not showing up"
+      ],
+      "direction": "They are trying to find a purpose and reconnect with a past skill.",
+      "values": [
+        "reliability",
+        "solid",
+        "following orders",
+        "skill",
+        "problem-solving",
+        "quiet"
+      ],
+      "strengths": [
+        "building furniture",
+        "woodworking"
+      ],
+      "gaps": [
+        "figuring out what to do"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stared at the TV, drinking tea",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; frequent self-deprecation; story-telling with detailed anecdotes; avoids directness with deflection."
+      }
+    }
+  },
+  {
+    "id": "s110",
+    "name": "Dhruv",
+    "age_band": "18-24",
+    "persona": "poetry-editor",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "dominating conversations"
+      ],
+      "direction": "They are working on a collection by Elias Vance.",
+      "values": [
+        "good conversation",
+        "slow pace",
+        "evocative writing",
+        "authenticity",
+        "depth",
+        "subconscious"
+      ],
+      "strengths": [
+        "proofreading",
+        "copyediting"
+      ],
+      "gaps": [
+        "marketing"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "started reading Yeats. It was…quiet.",
+        "comm_depth": "Frequent 'um,' lengthy reflective answers, volunteers feelings unprompted, shares personal anecdotes, avoids directness, reflects on past experiences."
+      }
+    }
+  },
+  {
+    "id": "s111",
+    "name": "Pooja",
+    "age_band": "18-24",
+    "persona": "robotics-undergrad",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "rambling",
+        "distraction",
+        "talking about irrelevant things"
+      ],
+      "direction": "They are designing and building a complex mechanical robot.",
+      "values": [
+        "collaboration",
+        "problem-solving",
+        "precision",
+        "reliability",
+        "detail",
+        "persistence"
+      ],
+      "strengths": [
+        "mechanical design",
+        "technical specifications"
+      ],
+      "gaps": [
+        "hydraulic wiring"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "staring at Ragnarok’s chassis for hours",
+        "comm_depth": "Long, detailed answers; volunteers feelings ('feeling like a total idiot'); reflects on process and frustration; story-telling with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s112",
+    "name": "Amit",
+    "age_band": "25-34",
+    "persona": "cafe-owner",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "monologues",
+        "one-sided conversations"
+      ],
+      "direction": "They are maintaining a business.",
+      "values": [
+        "genuine connection",
+        "understanding",
+        "reliability",
+        "efficiency",
+        "observation",
+        "description"
+      ],
+      "strengths": [
+        "making coffee"
+      ],
+      "gaps": [
+        "talking to people"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stayed at the cafe, fixing the machine",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids direct reflection; rambling."
+      }
+    }
+  },
+  {
+    "id": "s113",
+    "name": "Sneha",
+    "age_band": "45+",
+    "persona": "climate-analyst",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "spouting off without data"
+      ],
+      "direction": "They are researching hurricane intensification and the impact of warming oceans.",
+      "values": [
+        "depth",
+        "data",
+        "truth",
+        "investigation",
+        "accuracy",
+        "debate"
+      ],
+      "strengths": [
+        "data analysis"
+      ],
+      "gaps": [
+        "communication"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the evening reading about glacial melt",
+        "comm_depth": "Long, reflective answers; volunteers feelings; consistently reflects on data and research; story-telling."
+      }
+    }
+  },
+  {
+    "id": "s114",
+    "name": "Sneha",
+    "age_band": "18-24",
+    "persona": "game-artist",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant texting",
+        "needing to talk frequently"
+      ],
+      "direction": "They are currently focused on creating detailed artwork for a tabletop RPG.",
+      "values": [
+        "staying in",
+        "depth",
+        "detail",
+        "focus",
+        "complexity",
+        "creativity"
+      ],
+      "strengths": [
+        "artistic detail",
+        "late-night focus"
+      ],
+      "gaps": [
+        "cleaning brushes"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the whole night just drawing",
+        "comm_depth": "Frequent 'Ugh, honestly?' openings, long, detailed descriptions, volunteering feelings ('felt pretty bummed,' 'it was the best thing'), reflective on schedule changes, prioritizing relationships over deadlines."
+      }
+    }
+  },
+  {
+    "id": "s115",
+    "name": "Sneha",
+    "age_band": "18-24",
+    "persona": "med-resident",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "unreliable",
+        "lack of follow-through"
+      ],
+      "direction": "They are currently focused on medical duties and charting.",
+      "values": [
+        "consistent connection",
+        "responsibility",
+        "accuracy",
+        "details",
+        "persistence",
+        "self-care"
+      ],
+      "strengths": [
+        "memorization"
+      ],
+      "gaps": [
+        "socializing"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just shut down, ordered pizza",
+        "comm_depth": "Frequent 'honestly?' and 'ugh,' long, reflective answers, volunteers feelings unprompted, detailed anecdotes, consistent deflection."
+      }
+    }
+  },
+  {
+    "id": "s116",
+    "name": "Joseph",
+    "age_band": "45+",
+    "persona": "street-photographer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "talking about themselves for ages"
+      ],
+      "direction": "They are collecting snippets of lives and trying to understand how people are 'doing things'.",
+      "values": [
+        "interesting",
+        "weird",
+        "depth",
+        "understanding",
+        "observation",
+        "detail"
+      ],
+      "strengths": [
+        "observant",
+        "curious"
+      ],
+      "gaps": [
+        "organisation",
+        "editing"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt totally content, just hanging out",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids direct minimalism; consistent focus on observation and experience."
+      }
+    }
+  },
+  {
+    "id": "s117",
+    "name": "Joseph",
+    "age_band": "35-44",
+    "persona": "math-olympiad",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "preparing students for Math Olympiads",
+      "values": [
+        "conversation",
+        "genuine connection",
+        "helping others",
+        "patience",
+        "depth",
+        "fascinated"
+      ],
+      "strengths": [
+        "mentoring",
+        "problem-solving"
+      ],
+      "gaps": [
+        "comfortable communication"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "I just kinda settled into it, you know.",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples (Leo, prime numbers, hiking trip); avoids direct deflection."
+      }
+    }
+  },
+  {
+    "id": "s118",
+    "name": "Tara",
+    "age_band": "45+",
+    "persona": "ngo-organizer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "over-planning"
+      ],
+      "direction": "They are coordinating a food drive and deliveries.",
+      "values": [
+        "chaos",
+        "authenticity",
+        "coordination",
+        "community",
+        "efficiency",
+        "details"
+      ],
+      "strengths": [
+        "confirming delivery routes"
+      ],
+      "gaps": [
+        "going to the farmer’s market"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt this weird…deflated",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed logistics; admits frustration; pivots based on empathy."
+      }
+    }
+  },
+  {
+    "id": "s119",
+    "name": "Joseph",
+    "age_band": "45+",
+    "persona": "audiobook-narrator",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "one-sided conversations"
+      ],
+      "direction": "They are trying to improve their social skills.",
+      "values": [
+        "connection",
+        "authenticity",
+        "depth",
+        "subtlety",
+        "observation",
+        "comfort"
+      ],
+      "strengths": [
+        "reading",
+        "detail-oriented"
+      ],
+      "gaps": [
+        "social interaction"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stayed in, put on audiobook, made chili",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; detailed storytelling; avoids direct deflection; consistent use of anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s120",
+    "name": "Sneha",
+    "age_band": "35-44",
+    "persona": "quant-dropout",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant self-talk",
+        "ego"
+      ],
+      "direction": "They are focused on helping students understand complex math concepts.",
+      "values": [
+        "connection",
+        "sharing",
+        "understanding",
+        "clarity",
+        "depth",
+        "peace"
+      ],
+      "strengths": [
+        "building complex models"
+      ],
+      "gaps": [
+        "organizing",
+        "desk management"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt kinda relieved, a weirdly peaceful evening",
+        "comm_depth": "Long, reflective answers with frequent 'like' and 'you know,' volunteers feelings ('it was actually really nice,' 'it felt kinda relieved'), reflects on past experiences (hedge fund, Citadel), and uses storytelling to illustrate points (poker hands, weather patterns)."
+      }
+    }
+  },
+  {
+    "id": "s121",
+    "name": "Mira",
+    "age_band": "35-44",
+    "persona": "startup-grinder",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking without action"
+      ],
+      "direction": "building something that works",
+      "values": [
+        "getting things done",
+        "action",
+        "action over talk",
+        "building",
+        "tangible impact",
+        "efficiency"
+      ],
+      "strengths": [
+        "reliable test transactions"
+      ],
+      "gaps": [
+        "marketing deck"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "shut down, ordering pizza, laptop until 2 am",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples; avoids superficiality."
+      }
+    }
+  },
+  {
+    "id": "s122",
+    "name": "Farhan",
+    "age_band": "45+",
+    "persona": "phd-biologist",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "constant chatter",
+        "needing to vent"
+      ],
+      "direction": "trying to sort species counts and growth rates",
+      "values": [
+        "connection",
+        "authenticity",
+        "accuracy",
+        "depth",
+        "quiet",
+        "comfort"
+      ],
+      "strengths": [
+        "data analysis"
+      ],
+      "gaps": [
+        "writing"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "feeling pretty bummed out, honestly.",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; deflects with humor and self-deprecation; detailed stories; minimal bullet points."
+      }
+    }
+  },
+  {
+    "id": "s123",
+    "name": "Sanjay",
+    "age_band": "45+",
+    "persona": "standup-writer",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "overly verbose people"
+      ],
+      "direction": "They seem to be working in finance, specifically mortgages.",
+      "values": [
+        "venting",
+        "authenticity",
+        "creativity",
+        "observation",
+        "detail",
+        "comfort"
+      ],
+      "strengths": [
+        "processing mortgages"
+      ],
+      "gaps": [
+        "quarterly reports"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering pizza, watching a terrible show",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed observations of everyday life; frequent shifts in topic; avoids direct answers with tangential anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s124",
+    "name": "Aditya",
+    "age_band": "45+",
+    "persona": "returning-mom",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "lack of organization"
+      ],
+      "direction": "She's building a website for her daughter's art club.",
+      "values": [
+        "depth",
+        "family",
+        "support",
+        "efficiency",
+        "practicality",
+        "relief"
+      ],
+      "strengths": [
+        "managing sign-ups and payments"
+      ],
+      "gaps": [
+        "designing a gallery"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 35,
+        "confidence": 35
+      },
+      "evidence": {
+        "energy": "felt relieved, it was just...quiet",
+        "comm_depth": "Short, often hesitant answers; minimal reflection; relies on practical examples; avoids deep feelings."
+      }
+    }
+  },
+  {
+    "id": "s125",
+    "name": "Neha",
+    "age_band": "45+",
+    "persona": "chess-teacher",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "endless talk",
+        "not doing anything"
+      ],
+      "direction": "They are developing a chess strategy for a tournament.",
+      "values": [
+        "solid system",
+        "efficiency",
+        "family",
+        "strategy",
+        "depth",
+        "intellectual curiosity"
+      ],
+      "strengths": [
+        "strategic thinking",
+        "chess club"
+      ],
+      "gaps": [
+        "connecting with family"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "shut down and started building Lego",
+        "comm_depth": "Long, reflective answers; volunteers feelings ('prickly,' 'exhausting'); reflects on actions and motivations; story-telling with detailed examples."
+      }
+    }
+  },
+  {
+    "id": "s126",
+    "name": "Neha",
+    "age_band": "35-44",
+    "persona": "travel-nurse",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "talking about themselves",
+        "not listening"
+      ],
+      "direction": "They are relocating to Seattle next month.",
+      "values": [
+        "stability",
+        "connection",
+        "care",
+        "observation",
+        "curiosity",
+        "patient care"
+      ],
+      "strengths": [
+        "making connections",
+        "building relationships"
+      ],
+      "gaps": [
+        "organizing",
+        "decluttering"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "felt weird afterwards, like I’d missed out",
+        "comm_depth": "Frequent 'Ugh, honestly?' and 'you know?' signals deflection and a hesitant, reflective tone. Long, rambling answers detailing constant relocation and shifting priorities. Volunteers feelings of guilt and missing out. Story-telling dominates, with detailed anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s127",
+    "name": "Amit",
+    "age_band": "35-44",
+    "persona": "open-source-dev",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "constant, unstructured chatter"
+      ],
+      "direction": "They are working on improving the examples section of their image sorting library.",
+      "values": [
+        "code working",
+        "efficiency",
+        "clarity",
+        "reliability",
+        "problem-solving",
+        "helpfulness"
+      ],
+      "strengths": [
+        "technical skills",
+        "building libraries"
+      ],
+      "gaps": [
+        "testing",
+        "breaking down tasks"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the whole evening scrubbing carpet",
+        "comm_depth": "Long, detailed answers; volunteers feelings; reflects on past projects and decisions; story-telling with specific examples."
+      }
+    }
+  },
+  {
+    "id": "s128",
+    "name": "Amit",
+    "age_band": "25-34",
+    "persona": "dance-choreographer",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "obsessed with schedules"
+      ],
+      "direction": "They are involved in dance projects with various groups.",
+      "values": [
+        "genuine interest",
+        "reacting",
+        "creativity",
+        "collaboration",
+        "expression",
+        "family"
+      ],
+      "strengths": [
+        "managing people"
+      ],
+      "gaps": [
+        "financial management"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "dropped everything, grabbed my bag, drove him straight there",
+        "comm_depth": "Frequent, lengthy answers; volunteers feelings; reflects on experiences; story-telling; avoids direct minimalism."
+      }
+    }
+  },
+  {
+    "id": "s129",
+    "name": "Zoya",
+    "age_band": "25-34",
+    "persona": "retired-army",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "not following through"
+      ],
+      "direction": "trying to build a birdhouse and get into woodworking",
+      "values": [
+        "reliability",
+        "companionship",
+        "maintenance",
+        "stability",
+        "depth",
+        "practicality"
+      ],
+      "strengths": [
+        "mowing the lawn"
+      ],
+      "gaps": [
+        "fixing the faucet"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "staring out the window, felt tired",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling with personal anecdotes; consistent use of 'honestly?' and 'you know?'"
+      }
+    }
+  },
+  {
+    "id": "s130",
+    "name": "Kavya",
+    "age_band": "35-44",
+    "persona": "poetry-editor",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you",
+        "not listening"
+      ],
+      "direction": "They are currently focused on a poetry collection.",
+      "values": [
+        "listening",
+        "quiet contemplation",
+        "precision",
+        "typography",
+        "depth",
+        "peace"
+      ],
+      "strengths": [
+        "meticulous work",
+        "tweaking line breaks"
+      ],
+      "gaps": [
+        "talking about themselves"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "stayed in, reading Rilke, watching the rain",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed storytelling; avoids direct self-reflection; traces etymology and personal history."
+      }
+    }
+  },
+  {
+    "id": "s131",
+    "name": "Lakshmi",
+    "age_band": "45+",
+    "persona": "robotics-undergrad",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "lack of detail",
+        "impulsive decisions"
+      ],
+      "direction": "They are building a complex mechanical device, 'Hammer'.",
+      "values": [
+        "fabrication",
+        "detail",
+        "precision",
+        "completion",
+        "depth",
+        "process"
+      ],
+      "strengths": [
+        "technical expertise",
+        "complex problem-solving"
+      ],
+      "gaps": [
+        "aesthetic refinement",
+        "prioritization"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "spent the whole evening packing boxes",
+        "comm_depth": "Long, detailed answers; consistently volunteers feelings (frustration, excitement); reflects on decisions and changes of mind; avoids superficiality with technical specifics."
+      }
+    }
+  },
+  {
+    "id": "s132",
+    "name": "Divya",
+    "age_band": "18-24",
+    "persona": "cafe-owner",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "monologues",
+        "excessive talking"
+      ],
+      "direction": "They are currently running a cafe, 'The Daily Grind'.",
+      "values": [
+        "genuine connection",
+        "observation",
+        "detail",
+        "peace",
+        "simplicity",
+        "simple needs"
+      ],
+      "strengths": [
+        "managing a cafe"
+      ],
+      "gaps": [
+        "talking to people"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just felt this weird pang of disappointment, but also, you know, it was kinda nice to just…be",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed anecdotes; consistent self-deprecation; avoids direct deflection."
+      }
+    }
+  },
+  {
+    "id": "s133",
+    "name": "Priya",
+    "age_band": "45+",
+    "persona": "climate-analyst",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "repeating arguments",
+        "yelling about fear"
+      ],
+      "direction": "They are researching the impact of climate change on agricultural yields.",
+      "values": [
+        "debate",
+        "conviction",
+        "accuracy",
+        "thoroughness",
+        "depth",
+        "preparedness"
+      ],
+      "strengths": [
+        "data analysis",
+        "research"
+      ],
+      "gaps": [
+        "report writing"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "staring at a detailed map",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories; avoids direct deflection; data-driven."
+      }
+    }
+  },
+  {
+    "id": "s134",
+    "name": "Nikhil",
+    "age_band": "35-44",
+    "persona": "game-artist",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constantly needing to do something"
+      ],
+      "direction": "They are creating a detailed fantasy map for a tabletop RPG.",
+      "values": [
+        "understanding",
+        "acceptance",
+        "detail",
+        "creative expression",
+        "depth",
+        "unique systems"
+      ],
+      "strengths": [
+        "immersed in creative work"
+      ],
+      "gaps": [
+        "sending emails to clients"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 65,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just scrolling through ArtStation while I ate",
+        "comm_depth": "Frequent 'um's, lengthy, reflective answers, volunteers feelings, story-telling, avoids direct answers, detailed anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s135",
+    "name": "Karan",
+    "age_band": "35-44",
+    "persona": "med-resident",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "constant cancellations"
+      ],
+      "direction": "trying to cook something decent on Tuesday evenings",
+      "values": [
+        "action over talk",
+        "depth",
+        "family",
+        "home",
+        "precision",
+        "quiet"
+      ],
+      "strengths": [
+        "hospital shifts"
+      ],
+      "gaps": [
+        "replying to mom"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "needed a quiet night, rescheduling felt like too much effort",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples."
+      }
+    }
+  },
+  {
+    "id": "s136",
+    "name": "Sneha",
+    "age_band": "25-34",
+    "persona": "street-photographer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "people who talk about themselves excessively"
+      ],
+      "direction": "They're currently focused on street photography in Brooklyn.",
+      "values": [
+        "connection",
+        "authenticity",
+        "observation",
+        "curiosity",
+        "depth",
+        "distraction"
+      ],
+      "strengths": [
+        "observant",
+        "patient"
+      ],
+      "gaps": [
+        "organization",
+        "completion"
+      ],
+      "energy": {
+        "value": 85,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "needed a weird little distraction, I guess",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; deflects with 'you know?' and 'kinda'; uses storytelling (Berlin rave); minimal bullet points."
+      }
+    }
+  },
+  {
+    "id": "s137",
+    "name": "Neha",
+    "age_band": "35-44",
+    "persona": "math-olympiad",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "dominating conversations"
+      ],
+      "direction": "They are currently focused on preparing students for a Math Olympiad.",
+      "values": [
+        "different perspective",
+        "bounce ideas",
+        "responsibility",
+        "dedication",
+        "depth",
+        "understanding"
+      ],
+      "strengths": [
+        "mentoring",
+        "organization"
+      ],
+      "gaps": [
+        "boundaries"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordered pizza, watched a terrible reality show",
+        "comm_depth": "Long, reflective answers; volunteers feelings ('exhausting,' 'uphill,' 'useless'); reflects on experiences; story-telling with detail."
+      }
+    }
+  },
+  {
+    "id": "s138",
+    "name": "Nikhil",
+    "age_band": "35-44",
+    "persona": "ngo-organizer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constant self-talk"
+      ],
+      "direction": "They are building a greenhouse in West Philly.",
+      "values": [
+        "logistics",
+        "overthinking",
+        "community",
+        "practicality",
+        "efficiency",
+        "problem-solving"
+      ],
+      "strengths": [
+        "logistics",
+        "problem-solving"
+      ],
+      "gaps": [
+        "relaxation",
+        "hobbies"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "got to just…chill",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed logistics descriptions; avoids minimalism."
+      }
+    }
+  },
+  {
+    "id": "s139",
+    "name": "Rohit",
+    "age_band": "35-44",
+    "persona": "audiobook-narrator",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you",
+        "not really listening"
+      ],
+      "direction": "seeking a deeper understanding of human experience",
+      "values": [
+        "connection",
+        "depth",
+        "authenticity",
+        "detail",
+        "patterns",
+        "quiet evenings"
+      ],
+      "strengths": [
+        "reading history and biographies"
+      ],
+      "gaps": [
+        "going for a proper walk"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "a solid, quiet evening",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; reflects on experiences; avoids direct deflection; uses storytelling; detailed specificity."
+      }
+    }
+  },
+  {
+    "id": "s140",
+    "name": "Sanjay",
+    "age_band": "45+",
+    "persona": "quant-dropout",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "relentlessly negative people",
+        "constant pressure"
+      ],
+      "direction": "They are currently teaching high school math.",
+      "values": [
+        "understanding",
+        "clarity",
+        "observation",
+        "detail",
+        "simplicity",
+        "comfort"
+      ],
+      "strengths": [
+        "lesson planning",
+        "mathematics"
+      ],
+      "gaps": [
+        "communication"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "ordering a ridiculous amount of pizza",
+        "comm_depth": "Long, reflective answers with frequent volunteering of feelings and personal anecdotes. Frequent use of 'like' and conversational tone. Reflects on past experiences and contrasts them with current life."
+      }
+    }
+  },
+  {
+    "id": "s141",
+    "name": "Isha",
+    "age_band": "25-34",
+    "persona": "startup-grinder",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking about ideas without action"
+      ],
+      "direction": "building out the referral system piece by piece",
+      "values": [
+        "getting stuff done",
+        "follow-through",
+        "measurable results",
+        "building",
+        "persistence",
+        "comfort"
+      ],
+      "strengths": [
+        "frantic debugging"
+      ],
+      "gaps": [
+        "setting up proper analytics"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "built a fort out of blankets and boxes",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; reflects on past failures; story-telling style; minimal bullet-point minimalism."
+      }
+    }
+  },
+  {
+    "id": "s142",
+    "name": "Aarav",
+    "age_band": "18-24",
+    "persona": "phd-biologist",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "jumping into things without thought"
+      ],
+      "direction": "craves a little human connection outside of the lab",
+      "values": [
+        "depth",
+        "authenticity",
+        "human connection",
+        "observation",
+        "detail",
+        "comfort"
+      ],
+      "strengths": [
+        "meticulously logging data"
+      ],
+      "gaps": [
+        "reaching out to people"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "I ended up making a massive pot of lentil stew",
+        "comm_depth": "Long, reflective answers with frequent 'like' and 'you know,' volunteers feelings unprompted, detailed storytelling (Sheldon the hermit crab, Attenborough documentaries), admits to changing mind, expresses frustration with chaotic behavior."
+      }
+    }
+  },
+  {
+    "id": "s143",
+    "name": "Isha",
+    "age_band": "45+",
+    "persona": "standup-writer",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "excessive self-talk"
+      ],
+      "direction": "They are working at First National, but avoiding creative projects.",
+      "values": [
+        "authenticity",
+        "openness",
+        "vulnerability",
+        "quiet chaos",
+        "observation",
+        "comfort"
+      ],
+      "strengths": [
+        "precise data entry"
+      ],
+      "gaps": [
+        "creative expression"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just a weird, quiet evening, which is honestly my default setting",
+        "comm_depth": "Long, reflective answers; volunteers feelings frequently; uses storytelling (vending machine, banana suit, Florida seashells); deflects with humor and self-deprecation."
+      }
+    }
+  },
+  {
+    "id": "s144",
+    "name": "Lakshmi",
+    "age_band": "18-24",
+    "persona": "returning-mom",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "talking at you, not with you"
+      ],
+      "direction": "I'm keeping my skills sharp with freelance web work.",
+      "values": [
+        "depth",
+        "action over talk",
+        "skill maintenance",
+        "detail",
+        "complexity",
+        "comfort"
+      ],
+      "strengths": [
+        "skill maintenance"
+      ],
+      "gaps": [
+        "writing proposals"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "made a huge pot of chili, ordered pizza",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories; avoids direct sales talk; admits to emotional reactions."
+      }
+    }
+  },
+  {
+    "id": "s145",
+    "name": "Aditya",
+    "age_band": "18-24",
+    "persona": "chess-teacher",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "pointless chatter"
+      ],
+      "direction": "They are building a consistent endgame strategy for the chess team.",
+      "values": [
+        "efficiency",
+        "reliability",
+        "strategy",
+        "system",
+        "strategic thinking",
+        "depth"
+      ],
+      "strengths": [
+        "consistent endgame play"
+      ],
+      "gaps": [
+        "writing tournament schedules"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 85,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "watching old chess documentaries with her dad",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; detailed examples; avoids superficiality."
+      }
+    }
+  },
+  {
+    "id": "s146",
+    "name": "Lakshmi",
+    "age_band": "18-24",
+    "persona": "travel-nurse",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "always talking about themselves"
+      ],
+      "direction": "They are seeking stability and connection.",
+      "values": [
+        "stability",
+        "connection",
+        "understanding",
+        "exploration",
+        "quiet time",
+        "authenticity"
+      ],
+      "strengths": [
+        "packing and unpacking"
+      ],
+      "gaps": [
+        "reaching out to others"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "just a quiet, stupid night",
+        "comm_depth": "Frequent 'honestly?' hedges, lengthy reflective answers, volunteers feelings, avoids directness, story-telling, consistent theme of instability and exhaustion."
+      }
+    }
+  },
+  {
+    "id": "s147",
+    "name": "Sanjay",
+    "age_band": "25-34",
+    "persona": "open-source-dev",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "talking without doing"
+      ],
+      "direction": "building a Python library for chord progressions",
+      "values": [
+        "completion",
+        "efficiency",
+        "music theory",
+        "robustness",
+        "precision",
+        "dedication"
+      ],
+      "strengths": [
+        "coding",
+        "algorithm tweaking"
+      ],
+      "gaps": [
+        "documentation"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 15,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "drove into code – it's my default state",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories about coding projects; reflects on frustrations and debugging experiences; avoids simple answers."
+      }
+    }
+  },
+  {
+    "id": "s148",
+    "name": "Neha",
+    "age_band": "25-34",
+    "persona": "dance-choreographer",
+    "profile": {
+      "intent": "collaborator",
+      "dealbreakers": [
+        "people who try to tell me exactly what to do"
+      ],
+      "direction": "They are working on a street festival piece about unexpected connections.",
+      "values": [
+        "spontaneity",
+        "interaction",
+        "genuine connection",
+        "seeing people moved",
+        "observation",
+        "understanding"
+      ],
+      "strengths": [
+        "seeing people genuinely surprised and moved"
+      ],
+      "gaps": [
+        "scheduling rehearsals properly"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "letting the energy of the music take over",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; story-telling; avoids direct answers; detailed anecdotes."
+      }
+    }
+  },
+  {
+    "id": "s149",
+    "name": "Divya",
+    "age_band": "18-24",
+    "persona": "retired-army",
+    "profile": {
+      "intent": "friend",
+      "dealbreakers": [
+        "constant complaining",
+        "lack of action"
+      ],
+      "direction": "trying to maintain a large property in Vermont",
+      "values": [
+        "trust",
+        "reliability",
+        "maintenance",
+        "practicality",
+        "precision",
+        "satisfaction"
+      ],
+      "strengths": [
+        "maintaining things",
+        "yard work"
+      ],
+      "gaps": [
+        "woodworking"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "sat in my armchair reading military history",
+        "comm_depth": "Long, reflective answers; volunteers feelings unprompted; detailed stories (Afghanistan, knot tying); avoids deflection."
+      }
+    }
+  },
+  {
+    "id": "s150",
+    "name": "Pooja",
+    "age_band": "45+",
+    "persona": "poetry-editor",
+    "profile": {
+      "intent": "sounding_board",
+      "dealbreakers": [
+        "monologues without hearing"
+      ],
+      "direction": "They are involved in publishing poetry.",
+      "values": [
+        "depth",
+        "genuine interest",
+        "accuracy",
+        "aesthetic",
+        "observation",
+        "detail"
+      ],
+      "strengths": [
+        "proofreading",
+        "layout"
+      ],
+      "gaps": [
+        "email management"
+      ],
+      "energy": {
+        "value": 15,
+        "confidence": 75
+      },
+      "planning": {
+        "value": 35,
+        "confidence": 35
+      },
+      "openness": {
+        "value": 85,
+        "confidence": 35
+      },
+      "comm_depth": {
+        "value": 85,
+        "confidence": 75
+      },
+      "evidence": {
+        "energy": "living in a damp, slightly panicked version",
+        "comm_depth": "Long, reflective answers; volunteers feelings; reflects on past experiences; story-telling; avoids direct minimalism."
+      }
+    }
+  }
+]
