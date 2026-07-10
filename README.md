@@ -210,4 +210,4 @@ in-memory sessions (demo scope)
 
 ---
 
-*Built by Ram — an introvert who couldn't initiate, building the app he needed.*
+*Built by Abhinav — an introvert who couldn't initiate, building the app he needed.*
