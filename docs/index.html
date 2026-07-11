@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Orbit — an AI that learns who you actually are</title>
+<style>
+  :root { --bg:#0d1117; --panel:#161b22; --line:#2d333b; --text:#e6edf3;
+          --dim:#8b949e; --gold:#d4a656; --blue:#1f3a5f; }
+  * { box-sizing:border-box; margin:0; }
+  body { background:var(--bg); color:var(--text);
+         font:16px/1.6 -apple-system,"Segoe UI",sans-serif; }
+  .wrap { max-width:880px; margin:0 auto; padding:0 24px; }
+  a { color:var(--gold); text-decoration:none; }
+  a:hover { text-decoration:underline; }
+
+  header { padding:90px 0 60px; text-align:center; }
+  header h1 { font:700 64px Georgia,serif; letter-spacing:14px; color:var(--gold); }
+  header p.tag { font:italic 22px Georgia,serif; color:var(--text); margin-top:14px; }
+  header p.sub { color:var(--dim); font-size:14px; margin-top:18px; }
+  .cta { margin-top:34px; display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+  .btn { display:inline-block; padding:12px 26px; border-radius:8px; font-weight:600; }
+  .btn.solid { background:var(--gold); color:#0d1117; }
+  .btn.ghost { border:1px solid var(--gold); color:var(--gold); }
+
+  section { padding:48px 0; border-top:1px solid var(--line); }
+  h2 { font:700 26px Georgia,serif; color:var(--gold); margin-bottom:18px; }
+  .grid { display:grid; grid-template-columns:1fr 1fr 1fr; gap:14px; margin-top:22px; }
+  .card { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:20px; }
+  .card h3 { font-size:15px; color:var(--gold); margin-bottom:8px; }
+  .card p { font-size:13.5px; color:var(--dim); }
+  .stat { text-align:center; border-color:var(--gold); }
+  .stat .n { font:700 44px Georgia,serif; color:var(--gold); }
+  .stat p { color:var(--text); margin-top:6px; }
+  .quote { background:var(--panel); border:1px solid var(--gold); border-radius:14px;
+           padding:28px; text-align:center; font:italic 20px Georgia,serif;
+           color:var(--gold); margin-top:10px; line-height:1.7; }
+  .note { background:var(--blue); border-radius:10px; padding:16px 20px;
+          font-size:14px; margin-top:24px; }
+  ol.flow { margin:16px 0 0 20px; color:var(--text); font-size:15px; }
+  ol.flow li { margin-bottom:10px; }
+  ol.flow b { color:var(--gold); }
+  pre { background:var(--panel); border:1px solid var(--line); border-radius:10px;
+        padding:18px; overflow-x:auto; font-size:13px; color:var(--text); margin-top:16px; }
+  footer { padding:40px 0 60px; border-top:1px solid var(--line); text-align:center;
+           color:var(--dim); font-size:13px; }
+  @media (max-width:700px){ .grid{grid-template-columns:1fr;} header h1{font-size:44px; letter-spacing:8px;} }
+</style>
+</head>
+<body>
+
+<header class="wrap">
+  <h1>ORBIT</h1>
+  <p class="tag">An AI that learns who you actually are — and finds the people you should meet.</p>
+  <p class="sub">AMD Developer Hackathon: Act II · Track 3 — Unicorn · Built solo in 48 hours<br>
+     Gemma 3 4B running entirely on an AMD Instinct MI300X</p>
+  <div class="cta">
+    <a class="btn solid" href="https://github.com/Logicrithm/orbit-ai">View the code →</a>
+    <a class="btn ghost" href="https://github.com/Logicrithm/orbit-ai#running-on-amd-instinct-mi300x">AMD evidence →</a>
+  </div>
+</header>
+
+<section class="wrap">
+  <h2>The problem</h2>
+  <p>Every social app matches you on what you <i>claim</i> to be — bios, hobby checklists,
+     your best photo. But people describe their ideal self, not their actual self. So matches
+     are made between two fictional people, and that's why they die after "hey."</p>
+  <div class="quote">"Social apps reward people who present well.<br>Orbit works for people who don't."</div>
+</section>
+
+<section class="wrap">
+  <h2>How Orbit works</h2>
+  <ol class="flow">
+    <li><b>Interviews you</b> — seven conversational questions about what you <i>did</i>,
+        not what you're like. "Remember the last time your plans got cancelled — what did you
+        actually do, and how did you feel?"</li>
+    <li><b>Shows its reasoning</b> — a live panel of every inference, each backed by your own
+        words as evidence, each with an honest confidence level. One trait is never asked at all:
+        communication depth is measured from <i>how</i> you answered.</li>
+    <li><b>Takes correction</b> — anything wrong, one click fixes it. The user is the final
+        authority on themselves. We call it <b>Proof of Personality</b>.</li>
+    <li><b>Matches you</b> — hard filters (intent, dealbreakers — never overridden), embedding
+        scoring, then Gemma names the connection type: mirror, complement, growth,
+        opposite-world, shared journey. Never a percentage — a person, a reason, a first activity.</li>
+    <li><b>Introduces you</b> — on mutual acceptance, Orbit writes the introduction itself.
+        The AI as mutual friend. No more empty "hey."</li>
+  </ol>
+</section>
+
+<section class="wrap">
+  <h2>On AMD hardware</h2>
+  <div class="grid">
+    <div class="card stat"><div class="n">0.8 s</div><p>per synthetic user profile<br>(13 LLM calls each)</p></div>
+    <div class="card stat"><div class="n">2.1 min</div><p>to interview &amp; analyse<br>148 synthetic users</p></div>
+    <div class="card stat"><div class="n">148×</div><p>concurrency headroom<br>(162 GiB KV cache)</p></div>
+  </div>
+  <div class="note"><b>Privacy by hardware, not by policy.</b> The interview collects intimate
+     personal detail. Everything — interview, extraction, matching, introductions — runs on a
+     single MI300X via vLLM/ROCm. No external LLM API at any point; the data never leaves the box.
+     Same pipeline on a consumer laptop: ~16 minutes per profile.</div>
+</section>
+
+<section class="wrap">
+  <h2>Run the live app yourself</h2>
+  <p>Orbit's interactive demo runs against a live LLM (the MI300X droplet, or Ollama locally),
+     so this page is a static overview — the full application is three commands away:</p>
+  <pre>git clone https://github.com/Logicrithm/orbit-ai
+pip install -r requirements.txt
+uvicorn app:app        # open http://localhost:8000</pre>
+  <p style="color:var(--dim); font-size:14px; margin-top:12px;">
+     Point <code>.env</code> at any OpenAI-compatible endpoint — MI300X + vLLM
+     (see <a href="https://github.com/Logicrithm/orbit-ai/blob/main/setup.md">setup.md</a>,
+     rebuilds in ~10 minutes) or local Ollama with <code>gemma3:4b</code>.</p>
+</section>
+
+<section class="wrap">
+  <h2>Honest limits</h2>
+  <div class="grid">
+    <div class="card"><h3>Synthetic population</h3><p>148 Gemma-role-played personas test the
+      pipeline, not real-world match quality. Simulated elements are labeled on screen.</p></div>
+    <div class="card"><h3>Heuristic weights</h3><p>The staged funnel exists so weights can be
+      tuned against real feedback — which is designed, not yet built.</p></div>
+    <div class="card"><h3>A better prior</h3><p>Behavioural questions are harder to fake than
+      trait claims — not impossible. Orbit is a better prior, not a truth machine.</p></div>
+  </div>
+</section>
+
+<footer class="wrap">
+  <p><a href="https://github.com/Logicrithm/orbit-ai">github.com/Logicrithm/orbit-ai</a></p>
+  <p style="margin-top:8px;"><i>Built by an introvert who couldn't initiate — building the app he needed.</i></p>
+</footer>
+
+</body>
+</html>
